@@ -30,7 +30,7 @@
         <div class="mouse-cursor cursor-outer"></div>
         <div class="mouse-cursor cursor-inner"></div>
 
-        <div id="my_switcher" class="my_switcher">
+        {{-- <div id="my_switcher" class="my_switcher">
             <ul>
                 <li>
                     <a href="javascript: void(0);" data-theme="light" class="setColor light">
@@ -43,4 +43,4 @@
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> --}}

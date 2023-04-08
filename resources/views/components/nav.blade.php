@@ -1,6 +1,6 @@
 <!-- Start Header -->
 <header class="header axil-header  header-light header-sticky ">
-    <div class="header-wrap">
+    <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
                 <div class="logo">
@@ -60,39 +60,37 @@
                             <li class="vertical-nav-item">
                                 <a href="{{ route('main.index') }}">Главная</a>
                             </li>
-
                             <li class="menu-item-has-children megamenu-wrapper"><a href="#">Услуги</a>
                                 <ul class="megamenu-sub-menu">
                                     <li class="megamenu-item">
-
                                         <!-- Start Verticle Nav  -->
                                         <div class="axil-vertical-nav">
                                             <ul class="vertical-nav-menu">
                                                 <li class="vertical-nav-item active">
                                                     <a class="hover-flip-item-wrapper" href="#tab1">
                                                         <span class="hover-flip-item">
-                            <span data-text="Accessibility">Accessibility</span>
+                                                            <span data-text="Accessibility">Accessibility</span>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="vertical-nav-item">
                                                     <a class="hover-flip-item-wrapper" href="#tab2">
                                                         <span class="hover-flip-item">
-                            <span data-text="Android Dev">Android Dev</span>
+                                                            <span data-text="Android Dev">Android Dev</span>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="vertical-nav-item">
                                                     <a class="hover-flip-item-wrapper" href="#tab3">
                                                         <span class="hover-flip-item">
-                            <span data-text="Blockchain">Blockchain</span>
+                                                            <span data-text="Blockchain">Blockchain</span>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="vertical-nav-item">
                                                     <a class="hover-flip-item-wrapper" href="#tab4">
                                                         <span class="hover-flip-item">
-                            <span data-text="Gadgets">Gadgets</span>
+                                                            <span data-text="Gadgets">Gadgets</span>
                                                         </span>
                                                     </a>
                                                 </li>
@@ -524,70 +522,68 @@
                                     </li>
                                 </ul>
                             </li>
-
                             <li class="menu-item-has-children"><a href="#">Pages</a>
                                 <ul class="axil-submenu">
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="post-list.html">
                                             <span class="hover-flip-item">
-                <span data-text="Post List">Post List</span>
+                                                <span data-text="Post List">Post List</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="archive.html">
                                             <span class="hover-flip-item">
-                <span data-text="Post Archive">Post Archive</span>
+                                                <span data-text="Post Archive">Post Archive</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="author.html">
                                             <span class="hover-flip-item">
-                <span data-text="Author Page">Author Page</span>
+                                                <span data-text="Author Page">Author Page</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="about.html">
                                             <span class="hover-flip-item">
-                <span data-text="About Page">About Page</span>
+                                                <span data-text="About Page">About Page</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="contact.html">
                                             <span class="hover-flip-item">
-                <span data-text="Contact Us">Contact Us</span>
+                                                <span data-text="Contact Us">Contact Us</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="404.html">
                                             <span class="hover-flip-item">
-                <span data-text="404 Page">404 Page</span>
+                                                <span data-text="404 Page">404 Page</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="maintenance.html">
                                             <span class="hover-flip-item">
-                <span data-text="Maintenance">Maintenance</span>
+                                                <span data-text="Maintenance">Maintenance</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="privacy-policy.html">
                                             <span class="hover-flip-item">
-                <span data-text="Privacy Policy">Privacy Policy</span>
+                                                <span data-text="Privacy Policy">Privacy Policy</span>
                                             </span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
-
-                            <li><a href="home-lifestyle-blog.html">Lifestyle</a></li>
-                            <li><a href="home-tech-blog.html">Gadgets</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Контакты</a></li>
                         </ul>
                         <!-- End Mainmanu Nav -->
                     </nav>

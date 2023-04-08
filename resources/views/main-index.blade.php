@@ -9,72 +9,12 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slider-activation axil-slick-arrow">
-                            <!-- Start Single Slide  -->
+                            {{-- Single slider --}}
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <a href="post-details.html">
-                                        <img src="/assets/images/post-images/gallery-post-01.jpg" alt="Post Images">
-                                    </a>
-                                </div>
-                                <!-- End Post Thumbnail  -->
-
-                                <!-- Start Post Content  -->
-                                <div class="post-content">
-                                    <div class="post-cat">
-                                        <div class="post-cat-list">
-                                            <a class="hover-flip-item-wrapper" href="#">
-                                                <span class="hover-flip-item">
-                                                    <span data-text="DESIGN">Химчистка ковров и мягкой мебели</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <h2 class="title"><a href="post-details.html">Химчистка ковров и мягкой мебели</a></h2>
-                                    <!-- Post Meta  -->
-                                    <div class="post-meta-wrapper with-button">
-                                        <div class="post-meta">
-                                            <div class="post-author-avatar border-rounded">
-                                                <img src="/assets/images/post-images/author/author-image-3.png" alt="Author Images">
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="post-author-name">
-                                                    <a class="hover-flip-item-wrapper" href="author.html">
-                                                        <span class="hover-flip-item">
-                                                            <span data-text="Rahabi Khan">Студия чистоты</span>
-                                                        </span>
-                                                    </a>
-                                                </h6>
-                                                <ul class="post-meta-list">
-                                                    <li>Feb 17, 2019</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <ul class="social-share-transparent justify-content-end">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-link"></i></a></li>
-                                        </ul>
-                                        <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="post-details.html">
-                                                <span class="hover-flip-item">
-                                                    <span data-text="Read Post">Подробнее</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Post Content  -->
-                            </div>
-                            <!-- End Single Slide  -->
-
-                            <!-- Start Single Slide  -->
-                            <div class="content-block">
-                                <!-- Start Post Thumbnail  -->
-                                <div class="post-thumbnail">
-                                    <a href="post-details.html">
-                                        <img src="/assets/images/post-images/gallery-post-03.jpg" alt="Post Images">
+                                    <a href="#" style="max-height: 600px">
+                                        <img src="https://mosproklining.ru/wp-content/uploads/2021/07/himchistka-kovra.jpg" alt="Post Images">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -84,44 +24,18 @@
                                         <div class="post-cat-list">
                                             <a class="hover-flip-item-wrapper" href="#">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="CAREERS">CAREERS</span>
+                                                    <span data-text="Чистка и стирка ковров">Чистка и стирка ковров</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
-                                    <h2 class="title"><a href="post-details.html">These 5 tips will help you nail your next design presentation</a></h2>
-
+                                    <h2 class="title"><a href="#">Чистка и стирка ковров и мягкой мебели</a></h2>
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
-                                        <div class="post-meta">
-                                            <div class="post-author-avatar border-rounded">
-                                                <img src="/assets/images/post-images/author/author-image-1.png" alt="Author Images">
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="post-author-name">
-                                                    <a class="hover-flip-item-wrapper" href="author.html">
-                                                        <span class="hover-flip-item">
-                                                            <span data-text="Syed Tahmim">Syed Tahmim</span>
-                                                        </span>
-                                                    </a>
-
-                                                </h6>
-                                                <ul class="post-meta-list">
-                                                    <li>Feb 17, 2019</li>
-                                                    <li>300k Views</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <ul class="social-share-transparent justify-content-end">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-link"></i></a></li>
-                                        </ul>
                                         <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="post-details.html">
+                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="#">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="Read Post">Read Post</span>
+                                                    <span data-text="Подробнее">Подробнее</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -129,14 +43,13 @@
                                 </div>
                                 <!-- End Post Content  -->
                             </div>
-                            <!-- End Single Slide  -->
-
-                            <!-- Start Single Slide  -->
+                            {{-- /Single slider --}}
+                            {{-- Single slider --}}
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <a href="post-details.html">
-                                        <img src="/assets/images/post-images/gallery-post-02.jpg" alt="Post Images">
+                                    <a href="#" style="max-height: 600px">
+                                        <img src="https://www.openbusiness.ru/upload/iblock/9de/90ax2ck6cv1mh7r3quemzv6yczhbe6s5/cleaning1.jpg" alt="Post Images">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -146,45 +59,19 @@
                                         <div class="post-cat-list">
                                             <a class="hover-flip-item-wrapper" href="#">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="DESIGN">DESIGN</span>
+                                                    <span data-text="Химчистка мягкой мебели и пр.">Химчистка мягкой мебели и пр.</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
-                                    <h2 class="title"><a href="post-details.html">iPadOS 14 introduces
-                                            new designed specifically for iPad</a></h2>
+                                    <h2 class="title"><a href="post-details.html">Мебель и прочие предметы интерьера</a></h2>
 
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
-                                        <div class="post-meta">
-                                            <div class="post-author-avatar border-rounded">
-                                                <img src="/assets/images/post-images/author/author-image-2.png" alt="Author Images">
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="post-author-name">
-                                                    <a class="hover-flip-item-wrapper" href="author.html">
-                                                        <span class="hover-flip-item">
-                                                            <span data-text="Ismat Jahan">Ismat Jahan</span>
-                                                        </span>
-                                                    </a>
-
-                                                </h6>
-                                                <ul class="post-meta-list">
-                                                    <li>Feb 17, 2019</li>
-                                                    <li>300k Views</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <ul class="social-share-transparent justify-content-end">
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-link"></i></a></li>
-                                        </ul>
                                         <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="post-details.html">
+                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="#">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="Read Post">Read Post</span>
+                                                    <span data-text="Подробнее">Подробнее</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -192,8 +79,7 @@
                                 </div>
                                 <!-- End Post Content  -->
                             </div>
-                            <!-- End Single Slide  -->
-
+                            {{-- /Single slider --}}
                         </div>
                     </div>
                 </div>
@@ -208,12 +94,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2 class="title">More Featured Posts.</h2>
+                        <h2 class="title">Услуги, которые мы оказываем</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <!-- Start Single Post  -->
+                {{-- Start Single Post --}}
                 <div class="col-lg-6 col-xl-6 col-md-12 col-12 mt--30">
                     <div class="content-block content-direction-column axil-control is-active post-horizontal thumb-border-rounded">
                         <div class="post-content">
@@ -221,31 +107,14 @@
                                 <div class="post-cat-list">
                                     <a class="hover-flip-item-wrapper" href="#">
                                         <span class="hover-flip-item">
-                                            <span data-text="APPLE DESIGN">APPLE DESIGN</span>
+                                            <span data-text="Какой-то подзаголовок">Какой-то подзаголовок</span>
                                         </span>
                                     </a>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="post-details.html">Apple reimagines the iPhone experience
-                                    with iOS 14</a></h4>
-                            <div class="post-meta">
-                                <div class="post-author-avatar border-rounded">
-                                    <img src="/assets/images/post-images/author/author-image-2.png" alt="Author Images">
-                                </div>
-                                <div class="content">
-                                    <h6 class="post-author-name">
-                                        <a class="hover-flip-item-wrapper" href="author.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Ismat Jahan">Ismat Jahan</span>
-                                            </span>
-                                        </a>
-                                    </h6>
-                                    <ul class="post-meta-list">
-                                        <li>Feb 17, 2019</li>
-                                        <li>300k Views</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h4 class="title">
+                                <a href="#">Какое-то название какой-то услуги или группы</a>
+                            </h4>
                         </div>
                         <div class="post-thumbnail">
                             <a href="post-details.html">
@@ -254,50 +123,32 @@
                         </div>
                     </div>
                 </div>
-                <!-- End Single Post  -->
-
-                <!-- Start Single Post  -->
+                {{-- /Start Single Post --}}
+                {{-- Start Single Post --}}
                 <div class="col-lg-6 col-xl-6 col-md-12 col-12 mt--30">
-                    <div class="content-block content-direction-column axil-control post-horizontal  thumb-border-rounded">
+                    <div class="content-block content-direction-column axil-control is-active post-horizontal thumb-border-rounded">
                         <div class="post-content">
                             <div class="post-cat">
                                 <div class="post-cat-list">
                                     <a class="hover-flip-item-wrapper" href="#">
                                         <span class="hover-flip-item">
-                                            <span data-text="TECH">TECH</span>
+                                            <span data-text="Какой-то подзаголовок">Какой-то подзаголовок</span>
                                         </span>
                                     </a>
                                 </div>
                             </div>
-                            <h4 class="title"><a href="post-details.html">Flutter: the good, the bad and the
-                                    ugly</a></h4>
-                            <div class="post-meta">
-                                <div class="post-author-avatar border-rounded">
-                                    <img src="/assets/images/post-images/author/author-image-1.png" alt="Author Images">
-                                </div>
-                                <div class="content">
-                                    <h6 class="post-author-name">
-                                        <a class="hover-flip-item-wrapper" href="author.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Jone Doe">Jone Doe</span>
-                                            </span>
-                                        </a>
-                                    </h6>
-                                    <ul class="post-meta-list">
-                                        <li>Feb 17, 2019</li>
-                                        <li>300k Views</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h4 class="title">
+                                <a href="#">Какое-то название какой-то услуги или группы</a>
+                            </h4>
                         </div>
                         <div class="post-thumbnail">
                             <a href="post-details.html">
-                                <img src="/assets/images/post-images/post-images-2.jpg" alt="Post Images">
+                                <img src="/assets/images/post-images/post-images-1.jpg" alt="Post Images">
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- End Single Post  -->
+                {{-- /Start Single Post --}}
             </div>
         </div>
     </div>
