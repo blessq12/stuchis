@@ -161,8 +161,8 @@
                 title="Задайте нам вопрос!"
                 text='Оставьте номер телефона с указанием вашего имени, чтобы мы могли связатьтся с вами'
             />
-            <div class="container">
-                {{-- <div class="row">
+            {{-- <div class="container">
+                <div class="row">
                     <div class="col-lg-12">
                         <div class="axil-banner mb--30">
                             <div class="thumbnail">
@@ -172,8 +172,8 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
-                {{-- <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title">
                             <h2 class="title">Innovation &#38; Tech</h2>
@@ -624,8 +624,8 @@
                         </div>
                         <!-- End Tab Content Wrapper  -->
                     </div>
-                </div> --}}
-            </div>
+                </div>
+            </div> --}}
         </div>
     </div>
     <!-- End Tab Area  -->
@@ -634,14 +634,9 @@
     <div class="axil-categories-list axil-section-gap bg-color-grey">
         <div class="container">
             <div class="row align-items-center mb--30">
-                <div class="col-lg-6 col-md-8 col-sm-8 col-12">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-12">
                     <div class="section-title">
-                        <h2 class="title">Trending Topics</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-4 col-sm-4 col-12">
-                    <div class="see-all-topics text-start text-sm-end mt_mobile--20">
-                        <a class="axil-link-button" href="#">See All Topics</a>
+                        <h2 class="title">Коротко о том, почему выбирают нас</h2>
                     </div>
                 </div>
             </div>
@@ -655,10 +650,10 @@
                             <div class="inner">
                                 <a href="#">
                                     <div class="thumbnail">
-                                        <img src="/assets/images/post-images/post-sm-01.jpg" alt="post categories images">
+                                        <img src="{{ asset('/assets/images/thumbs/1.jpg') }}" alt="Качество выполнения">
                                     </div>
                                     <div class="content">
-                                        <h5 class="title">Sports &#38; Fitness </h5>
+                                        <h5 class="title">Качество выполнения</h5>
                                     </div>
                                 </a>
                             </div>
@@ -670,10 +665,10 @@
                             <div class="inner">
                                 <a href="#">
                                     <div class="thumbnail">
-                                        <img src="/assets/images/post-images/post-sm-02.jpg" alt="post categories images">
+                                        <img src="{{ asset('/assets/images/thumbs/2.jpg') }}" alt="Современное оборудование">
                                     </div>
                                     <div class="content">
-                                        <h5 class="title">Travel</h5>
+                                        <h5 class="title">Современное оборудование</h5>
                                     </div>
                                 </a>
                             </div>
@@ -685,10 +680,10 @@
                             <div class="inner">
                                 <a href="#">
                                     <div class="thumbnail">
-                                        <img src="/assets/images/post-images/post-sm-03.jpg" alt="post categories images">
+                                        <img src="{{ asset('/assets/images/thumbs/3.jpg') }}" alt="Бесплатный вывоз/доставка">
                                     </div>
                                     <div class="content">
-                                        <h5 class="title">lifestyle</h5>
+                                        <h5 class="title">Бесплатный вывоз/доставка</h5>
                                     </div>
                                 </a>
                             </div>
@@ -700,10 +695,10 @@
                             <div class="inner">
                                 <a href="#">
                                     <div class="thumbnail">
-                                        <img src="/assets/images/post-images/post-sm-04.jpg" alt="post categories images">
+                                        <img src="{{ asset('/assets/images/thumbs/4.jpg') }}" alt="Глубока чистка изделий">
                                     </div>
                                     <div class="content">
-                                        <h5 class="title">Health</h5>
+                                        <h5 class="title">Глубока чистка изделий</h5>
                                     </div>
                                 </a>
                             </div>
@@ -715,10 +710,10 @@
                             <div class="inner">
                                 <a href="#">
                                     <div class="thumbnail">
-                                        <img src="/assets/images/post-images/post-sm-05.jpg" alt="post categories images">
+                                        <img src="{{ asset('/assets/images/thumbs/5.jpg') }}" alt="Безопасная сделка">
                                     </div>
                                     <div class="content">
-                                        <h5 class="title">Animals</h5>
+                                        <h5 class="title">Безопасная сделка</h5>
                                     </div>
                                 </a>
                             </div>
