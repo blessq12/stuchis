@@ -107,7 +107,7 @@
                                 <div class="post-cat-list">
                                     <a class="hover-flip-item-wrapper" href="#">
                                         <span class="hover-flip-item">
-                                            <span data-text="Какой-то подзаголовок">Какой-то подзаголовок</span>
+                                            <span data-text="Ковры и ковровые покрытия">Ковры и ковровые покрытия</span>
                                         </span>
                                     </a>
                                 </div>
@@ -132,7 +132,7 @@
                                 <div class="post-cat-list">
                                     <a class="hover-flip-item-wrapper" href="#">
                                         <span class="hover-flip-item">
-                                            <span data-text="Какой-то подзаголовок">Какой-то подзаголовок</span>
+                                            <span data-text="Мебель и предметы интерьера">Мебель и предметы интерьера</span>
                                         </span>
                                     </a>
                                 </div>
@@ -157,8 +157,12 @@
     <!-- Start Tab Area  -->
     <div class="axil-tab-area axil-section-gap bg-color-white">
         <div class="wrapper">
+            <x-call-to-action
+                title="Задайте нам вопрос!"
+                text='Оставьте номер телефона с указанием вашего имени, чтобы мы могли связатьтся с вами'
+            />
             <div class="container">
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-lg-12">
                         <div class="axil-banner mb--30">
                             <div class="thumbnail">
@@ -168,8 +172,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
+                </div> --}}
+                {{-- <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title">
                             <h2 class="title">Innovation &#38; Tech</h2>
@@ -620,7 +624,7 @@
                         </div>
                         <!-- End Tab Content Wrapper  -->
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
