@@ -5,8 +5,8 @@
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
                 <div class="logo">
                     <a href="index.html">
-                        <img class="dark-logo" src="assets/images/logo/logo-black.png" alt="Blogar logo">
-                        <img class="light-logo" src="assets/images/logo/logo-white2.png" alt="Blogar logo">
+                        <img class="dark-logo" src="assets/images/logo/logo-black.png" alt="logo">
+                        <img class="light-logo" src="assets/images/logo/logo-white2.png" alt="logo">
                     </a>
                 </div>
             </div>
@@ -16,115 +16,52 @@
                     <nav class="mainmenu-nav">
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu">
-                            <li class="menu-item-has-children"><a href="#">Home</a>
+                            
+                            {{-- <li class="menu-item-has-children"><a href="#">Главная</a>
                                 <ul class="axil-submenu">
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="index.html">
                                             <span class="hover-flip-item">
-                <span data-text="Home Default">Home Default</span>
+                                                <span data-text="Home Default">Home Default</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="home-creative-blog.html">
                                             <span class="hover-flip-item">
-                <span data-text="Home Creative Blog">Home Creative Blog</span>
+                                                <span data-text="Home Creative Blog">Home Creative Blog</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="home-seo-blog.html">
                                             <span class="hover-flip-item">
-                <span data-text="Home SEO Blog">Home SEO Blog</span>
+                                                <span data-text="Home SEO Blog">Home SEO Blog</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="home-tech-blog.html">
                                             <span class="hover-flip-item">
-                <span data-text="Home Tech Blog">Home Tech Blog</span>
+                                                <span data-text="Home Tech Blog">Home Tech Blog</span>
                                             </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="hover-flip-item-wrapper" href="home-lifestyle-blog.html">
                                             <span class="hover-flip-item">
-                <span data-text="Home Lifestyle Blog">Home Lifestyle Blog</span>
+                                                <span data-text="Home Lifestyle Blog">Home Lifestyle Blog</span>
                                             </span>
                                         </a>
                                     </li>
                                 </ul>
+                            </li> --}}
+
+                            <li class="vertical-nav-item">
+                                <a href="{{ route('main.index') }}">Главная</a>
                             </li>
 
-                            <li class="menu-item-has-children"><a href="#">Posts</a>
-                                <ul class="axil-submenu">
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-format-standard.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Format Standard">Post Format Standard</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-format-video.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Format Video">Post Format Video</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-format-gallery.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Format Gallery">Post Format Gallery</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-format-text.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Format Text Only">Post Format Text Only</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-layout-1.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Layout One">Post Layout One</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-layout-2.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Layout Two">Post Layout Two</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-layout-3.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Layout Three">Post Layout Three</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-layout-4.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Layout Four">Post Layout Four</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-layout-5.html">
-                                            <span class="hover-flip-item">
-                <span data-text="Post Layout Five">Post Layout Five</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children megamenu-wrapper"><a href="#">Mega Menu</a>
+                            <li class="menu-item-has-children megamenu-wrapper"><a href="#">Услуги</a>
                                 <ul class="megamenu-sub-menu">
                                     <li class="megamenu-item">
 
