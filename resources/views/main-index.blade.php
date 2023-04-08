@@ -25,12 +25,12 @@
                                         <div class="post-cat-list">
                                             <a class="hover-flip-item-wrapper" href="#">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="DESIGN">DESIGN</span>
+                                                    <span data-text="DESIGN">Химчистка ковров и мягкой мебели</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
-                                    <h2 class="title"><a href="post-details.html">4 types of research methods all designers should know</a></h2>
+                                    <h2 class="title"><a href="post-details.html">Химчистка ковров и мягкой мебели</a></h2>
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
                                         <div class="post-meta">
@@ -41,13 +41,12 @@
                                                 <h6 class="post-author-name">
                                                     <a class="hover-flip-item-wrapper" href="author.html">
                                                         <span class="hover-flip-item">
-                                                            <span data-text="Rahabi Khan">Rahabi Khan</span>
+                                                            <span data-text="Rahabi Khan">Студия чистоты</span>
                                                         </span>
                                                     </a>
                                                 </h6>
                                                 <ul class="post-meta-list">
                                                     <li>Feb 17, 2019</li>
-                                                    <li>300k Views</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -60,7 +59,7 @@
                                         <div class="read-more-button cerchio">
                                             <a class="axil-button button-rounded hover-flip-item-wrapper" href="post-details.html">
                                                 <span class="hover-flip-item">
-                                                    <span data-text="Read Post">Read Post</span>
+                                                    <span data-text="Read Post">Подробнее</span>
                                                 </span>
                                             </a>
                                         </div>
