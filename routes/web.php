@@ -21,6 +21,7 @@ Route::domain(env('APP_URL'))->group(function(){
         Route::get('/','index')->name('index');
         Route::get('/kovri','kovri')->name('kovri');
         Route::get('/mebel','mebel')->name('mebel');
+        Route::get('/calculator','calculator')->name('calculator');
         Route::get('/contact','contact')->name('contact');
     };
     $shopRoutes = function(){

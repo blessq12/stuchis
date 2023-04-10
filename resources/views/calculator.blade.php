@@ -2,9 +2,9 @@
 @section('content')
     <!-- Start Banner Area  -->
     <x-banner 
-        btitle='Ковры и ковровые покрытия' 
-        bdescription='Описания для страницы ковры и ковровые покрытия' 
-        bimage='https://cleaning-line.ru/upload/iblock/0ce/p1uhpudxnxknguuxkq9dkw54jzsomndb/hali-duvar-kagidi-slider.jpg'
+        btitle='Рассчитайте стоимость работ онлайн' 
+        bdescription='Воспользуйтесь нашим калькуляттором, чтобы рассчитать стоимость работ' 
+        bimage='https://www.prorabneva.ru/storage/post_content/October2021/uBCzhCMJOQ2gLDNplzUw.jpg'
     />
     <!-- End Banner Area  -->
 
@@ -33,39 +33,6 @@
                 <div class="col-lg-4 col-xl-4 mt_md--40 mt_sm--40">
                     <!-- Start Sidebar Area  -->
                     <div class="sidebar-inner">
-
-                        {{-- calc widget --}}
-                        <x-single-widget stitle='Узнайте предварительную стоимость'>
-                            <form id='side_calc'>
-                                <input type="hidden" name="square_cost" value="150">
-                                <div class="form-group">
-                                    <label for="lenght">Длина ковра:</label>
-                                    <input name="lenght" type="number" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="width">Ширина ковра:</label>
-                                    <input name="width" type="number" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <label for="carpet_type">Тип ковра:</label>
-                                    <select name="carpet_type" id="" class="form-control" style="border-radius: 44px">
-                                        <option value="">Синтетика</option>
-                                        <option value="">Шегги</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="carpet_height">Высота ворса:</label>
-                                    <select name="carpet_height" id="" class="form-control" style="border-radius: 44px">
-                                        <option value="">до 10 мм</option>
-                                        <option value="">Более 10 мм</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="axil-button button-rounded hover-flip-item-wrapper text-center"> Рассчет</button>
-                                </div>
-                            </form>
-                        </x-single-widget>
-                        {{-- /calc widget --}}
 
                         {{-- contact widget --}}
                         <x-single-widget stitle='Контактная информация'>

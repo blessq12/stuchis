@@ -72,7 +72,7 @@
                             <li class="vertical-nav-item">
                                 <a href="{{ route('main.index') }}">Главная</a>
                             </li>
-                            <li class="menu-item-has-children megamenu-wrapper"><a href="#">Услуги</a>
+                            <li class="menu-item-has-children megamenu-wrapper"><a href="javascript:void(0)">Услуги</a>
                                 <ul class="megamenu-sub-menu">
                                     <li class="megamenu-item">
                                         <!-- Start Verticle Nav  -->
@@ -81,28 +81,21 @@
                                                 <li class="vertical-nav-item active">
                                                     <a class="hover-flip-item-wrapper" href="#tab1">
                                                         <span class="hover-flip-item">
-                                                            <span data-text="Accessibility">Accessibility</span>
+                                                            <span data-text="Ковры и ковровые покрытия">Ковры и ковровые покрытия</span>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="vertical-nav-item">
                                                     <a class="hover-flip-item-wrapper" href="#tab2">
                                                         <span class="hover-flip-item">
-                                                            <span data-text="Android Dev">Android Dev</span>
+                                                            <span data-text="Мягкая мебель и игрушки">Мягкая мебель и игрушки</span>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="vertical-nav-item">
                                                     <a class="hover-flip-item-wrapper" href="#tab3">
                                                         <span class="hover-flip-item">
-                                                            <span data-text="Blockchain">Blockchain</span>
-                                                        </span>
-                                                    </a>
-                                                </li>
-                                                <li class="vertical-nav-item">
-                                                    <a class="hover-flip-item-wrapper" href="#tab4">
-                                                        <span class="hover-flip-item">
-                                                            <span data-text="Gadgets">Gadgets</span>
+                                                            <span data-text="Калькулятор стоимости">Калькулятор стоимости</span>
                                                         </span>
                                                     </a>
                                                 </li>
@@ -118,96 +111,18 @@
                                                     <div class="row">
 
                                                         <!-- Start Post List  -->
-                                                        <div class="col-lg-3">
-                                                            <div class="content-block image-rounded">
-                                                                <div class="post-thumbnail mb--20">
-                                                                    <a href="post-details.html">
-                                                                        <img class="w-100" src="assets/images/others/mega-post-01.jpg" alt="Post Images">
-                                                                    </a>
+                                                        <div class="col-lg-12">
+                                                            <div class="row align-items-center">
+                                                                <div class="col-6">
+                                                                    <img class="rounded" src="https://losk24.ru/wp-content/uploads/2021/04/antibac.jpg" alt="">
                                                                 </div>
-                                                                <div class="post-content">
-                                                                    <div class="post-cat">
-                                                                        <div class="post-cat-list">
-                                                                            <a class="hover-flip-item-wrapper" href="#">
-                                                                                <span class="hover-flip-item">
-                                                    <span data-text="DESIGN">DESIGN</span>
-                                                                                </span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="title"><a href="post-details.html">India may require online shops to hand</a></h5>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End Post List  -->
-
-                                                        <!-- Start Post List  -->
-                                                        <div class="col-lg-3">
-                                                            <div class="content-block image-rounded">
-                                                                <div class="post-thumbnail mb--20">
-                                                                    <a href="post-details.html">
-                                                                        <img class="w-100" src="assets/images/others/mega-post-02.jpg" alt="Post Images">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="post-content">
-                                                                    <div class="post-cat">
-                                                                        <div class="post-cat-list">
-                                                                            <a class="hover-flip-item-wrapper" href="#">
-                                                                                <span class="hover-flip-item">
-                                                    <span data-text="CREATIVE">CREATIVE</span>
-                                                                                </span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="title"><a href="post-details.html">Lightweight, grippable, and ready to go.</a></h5>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End Post List  -->
-
-                                                        <!-- Start Post List  -->
-                                                        <div class="col-lg-3">
-                                                            <div class="content-block image-rounded">
-                                                                <div class="post-thumbnail mb--20">
-                                                                    <a href="post-details.html">
-                                                                        <img class="w-100" src="assets/images/others/mega-post-03.jpg" alt="Post Images">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="post-content">
-                                                                    <div class="post-cat">
-                                                                        <div class="post-cat-list">
-                                                                            <a class="hover-flip-item-wrapper" href="#">
-                                                                                <span class="hover-flip-item">
-                                                    <span data-text="TRAVEL">TRAVEL</span>
-                                                                                </span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="title"><a href="post-details.html">Bold new experience. Same Mac magic.</a></h5>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- End Post List  -->
-
-                                                        <!-- Start Post List  -->
-                                                        <div class="col-lg-3">
-                                                            <div class="content-block image-rounded">
-                                                                <div class="post-thumbnail mb--20">
-                                                                    <a href="post-details.html">
-                                                                        <img class="w-100" src="assets/images/others/mega-post-04.jpg" alt="Post Images">
-                                                                    </a>
-                                                                </div>
-                                                                <div class="post-content">
-                                                                    <div class="post-cat">
-                                                                        <div class="post-cat-list">
-                                                                            <a class="hover-flip-item-wrapper" href="#">
-                                                                                <span class="hover-flip-item">
-                                                    <span data-text="GADGETS">GADGETS</span>
-                                                                                </span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <h5 class="title"><a href="post-details.html">Creative Game With The New DJI Mavic Air</a></h5>
+                                                                <div class="col-6">
+                                                                    <h4>Стирка ковров и ковровых покрытий</h4>
+                                                                    <p class="">
+                                                                        Полный цикл услуг по стирке и чистке ковров и ковровых покрытий. Удаление сложных и стойких загрязнений, антибактериальная обработка. 
+                                                                        Работы проводим как с выездом на адрес, так и с вывозом в цех.
+                                                                    </p>
+                                                                    <a href="{{ route('main.kovri') }}" class="axil-button button-rounded hover-flip-item-wrapper">Подробнее об услуге</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -534,67 +449,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#">Pages</a>
-                                <ul class="axil-submenu">
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="post-list.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Post List">Post List</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="archive.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Post Archive">Post Archive</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="author.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Author Page">Author Page</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="about.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="About Page">About Page</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="contact.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Contact Us">Contact Us</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="404.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="404 Page">404 Page</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="maintenance.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Maintenance">Maintenance</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="privacy-policy.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Privacy Policy">Privacy Policy</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Lifestyle</a></li>
                             <li><a href="#">Контакты</a></li>
                         </ul>
                         <!-- End Mainmanu Nav -->
