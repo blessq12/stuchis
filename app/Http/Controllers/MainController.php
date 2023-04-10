@@ -15,13 +15,13 @@ class MainController extends Controller
         ]);
     }
     public function kovri(){
-        return 'kovri page';
+        return view('kovri');
     }
-    public function himchistka(){
-        return 'himchistka page';
+    public function mebel(){
+        return view('mebel');
     }
 
     public function contact(){
-        return 'contact page';
+        return view('contact');
     }
 }

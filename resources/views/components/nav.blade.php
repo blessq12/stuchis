@@ -607,7 +607,7 @@
                     <form class="header-search-form d-sm-block d-none">
                         <div class="axil-search form-group">
                             <button type="submit" class="search-button"><i class="fal fa-search"></i></button>
-                            <input type="text" class="form-control" placeholder="Search">
+                            <input type="text" class="form-control" placeholder="Поиск">
                         </div>
                     </form>
                     <div class="mobile-search-wrapper d-sm-none d-block">

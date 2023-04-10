@@ -20,7 +20,7 @@ Route::domain(env('APP_URL'))->group(function(){
     $mainRoutes = function(){
         Route::get('/','index')->name('index');
         Route::get('/kovri','kovri')->name('kovri');
-        Route::get('/himchistka','himchistka')->name('himchistka');
+        Route::get('/mebel','mebel')->name('mebel');
         Route::get('/contact','contact')->name('contact');
     };
     $shopRoutes = function(){
