@@ -4,9 +4,21 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
                 <div class="logo">
-                    <a href="index.html">
-                        <img class="dark-logo" src="assets/images/logo/logo-black.png" alt="logo">
-                        <img class="light-logo" src="assets/images/logo/logo-white2.png" alt="logo">
+                    <a href="{{ route('main.index') }}" class="mb-4 mb-md-0 mb-lg-0 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start">
+                        <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
+                        <div class="d-block px-3 text-uppercase logo-text">
+                            <span class="d-block" style="
+                                color:#1c1c1c;
+                                font-family: inherit;
+                                font-weight:800;
+                                line-height:20px;
+                                font-size:16px;
+                                text-align:left;
+                                ">
+                                Студия<br>
+                                Чистоты
+                            </span>
+                        </div>
                     </a>
                 </div>
             </div>
