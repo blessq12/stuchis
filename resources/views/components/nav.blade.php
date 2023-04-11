@@ -114,7 +114,9 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <img class="rounded" src="https://amikovry.ru/upload/iblock/0a0/un160fun6u21bkungpnahh525dc1gcf7/dog_on_carpet_preview.jpg" alt="">
+                                                                    <a href="{{ route('main.kovri') }}">
+                                                                        <img class="rounded" src="{{ asset('/assets/images/mnu-kovri.jpg') }}" alt="Стирка ковров и ковровых покрытий">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="col-6">
                                                                     <h4>Стирка ковров и ковровых покрытий</h4>
@@ -141,7 +143,9 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <img class="rounded" src="https://kitchendecorium.ru/wp-content/uploads/2017/03/zhirnoe-pyatno-na-divane.jpg" alt="">
+                                                                    <a href="{{ route('main.mebel') }}">
+                                                                        <img class="rounded" src="{{ asset('/assets/images/mnu-mebel.jpg') }}" alt="Химчистка мягкой мебели и предметов интерьера">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="col-6">
                                                                     <h4>Химчистка мягкой мебели и предметов интерьера</h4>
@@ -167,7 +171,9 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <img class="rounded" src="https://www.prorabneva.ru/storage/post_content/October2021/uBCzhCMJOQ2gLDNplzUw.jpg" alt="">
+                                                                    <a href="{{ route('main.calculator') }}">
+                                                                        <img class="rounded" src="{{ asset('/assets/images/calc-menu.jpg') }}" alt="Рассчитать предварительную стоимость стало проще!">
+                                                                    </a>
                                                                 </div>
                                                                 <div class="col-6">
                                                                     <h4>Рассчитать предварительную стоимость стало проще!</h4>

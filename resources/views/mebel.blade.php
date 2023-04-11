@@ -3,8 +3,8 @@
         <!-- Start Banner Area  -->
         <x-banner 
         btitle='Мягкая мебель, попоны, игрушки, пледы' 
-        bdescription='Описания для страницы Мягкая мебель' 
-        bimage='https://cleanservice.md/wp-content/uploads/2021/03/blue-sofa-with-pillows-xb3dtka.jpg'
+        bdescription='Безопасность - на первом месте. Мы используем только профессиональную химию для чистки.' 
+        bimage='/assets/images/banner-mebel.jpg'
     />
     <!-- End Banner Area  -->
 

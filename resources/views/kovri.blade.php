@@ -3,8 +3,9 @@
     <!-- Start Banner Area  -->
     <x-banner 
         btitle='Ковры и ковровые покрытия' 
-        bdescription='Описания для страницы ковры и ковровые покрытия' 
-        bimage='https://cleaning-line.ru/upload/iblock/0ce/p1uhpudxnxknguuxkq9dkw54jzsomndb/hali-duvar-kagidi-slider.jpg'
+        bdescription='За год ковер накапливает около 3 кг пыли! Поэтому не забывайте, что помимо регулярной чистки вакуумным пылесосом, необходимо раз в год подвергать изделие химической чистке
+        в условиях профессионалов.' 
+        bimage='/assets/images/banner-kovri.jpg'
     />
     <!-- End Banner Area  -->
 

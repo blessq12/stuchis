@@ -8,9 +8,9 @@
 
                     <div class="col-lg-4 col-md-4">
                         <div class="logo">
-                            <a href="index.html">
-                                <img class="dark-logo" src="assets/images/logo/logo-black.png" alt="Logo Images">
-                                <img class="white-logo" src="assets/images/logo/logo-white2.png" alt="Logo Images">
+                            <a href="{{ route('main.index') }}" class="d-flex align-items-center">
+                                <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
+                                <h4 style="margin:0 0 0 10px;">{{ env('APP_NAME') }}</h4>
                             </a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-9 col-md-8">
+                    <div class="col-lg-8 col-md-7">
                         <div class="copyright-left">
                             <ul class="mainmenu justify-content-start">
                                 <li>
@@ -79,9 +79,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4">
+                    <div class="col-lg-4 col-md-5">
                         <div class="copyright-right text-start text-md-end mt_sm--20">
-                            <p class="b3">All Rights Reserved © 2022</p>
+                            <p class="b3">Все права защищены © {{ date('Y') }} | Разработано <a href="http://code-me.ru">code-me</a></p>
                         </div>
                     </div>
                 </div>
