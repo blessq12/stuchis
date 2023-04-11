@@ -27,10 +27,66 @@
 .flink-list li{
     padding-right: 15px;
 }
+
+/* 
+    Calculator css
+*/
+.btn-group button{
+    width: fit-content;
+    margin-right: 10px;
+}
+.btn-group button:last-child{
+    background: transparent!important;
+    color: #3858F6;
+}
+ul.calc-tab li button{
+    padding: 0 30px;
+    height: 50px;
+}
+ul.calc-tab li:first-child > button{
+    border-radius: 37px 0 0 37px;
+}
+
+ul.calc-tab li:last-child > button{
+    border-radius: 0 37px 37px 0;
+}
+input[type=number]{
+    background: #fff;
+    border: 1px solid #dedede;
+    border-radius: 37px;
+    padding: 0 25px;
+    height: 50px;
+}
+select{
+    background: #fff!important;
+    border: 1px solid #dedede!important;
+    border-radius: 37px!important;
+    padding: 0 25px!important;
+    height: 50px!important;
+    font-size: 16px!important;
+    color: #000!important;
+    font-weight: 400!important;
+}
+.nav-tabs .nav-link{
+    border: 1px solid #ee3241;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    color: #65676B;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background: #ee3241;
+    color: #fff;
+}
+/* 
+    End calculator css
+*/
 @media (max-width:768px) {
     .flink span{
         display: block;
         width: 100%;
         text-align: center;
+    }
+    ul.calc-tab li button{
+        padding: 0 15px;
     }
 }

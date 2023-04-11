@@ -16,16 +16,117 @@
                     <!-- Start About Area  -->
                     <div class="axil-about-us">
                         <div class="inner">
-                            <h3>The Professional Publishing Platform</h3>
-                            <p>Aenean consectetur massa quis sem volutpat, a condimentum tortor pretium. Cras id ligula consequat, sagittis nulla at, sollicitudin lorem. Orci varius natoque penatibus et magnis dis parturient montes.</p>
-                            <p> Cras id ligula consequat, sagittis nulla at, sollicitudin lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus eleifend, dolor vel condimentum imperdiet.</p>
-                            <p>In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. Think of a news blog that’s filled with content hourly on the day of going live. However, reviewers tend to be distracted by comprehensible content, say, a random text copied from a newspaper or the internet. The are likely to focus on the text, disregarding the layout and its elements.</p>
-                            <h3>Our Growing News Network</h3>
-                            <p>Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken for type specimens: Quo usque tandem abutere, Catilina, patientia nostra? Quam diu etiam furor iste tuus nos eludet? (How long, O Catiline, will you abuse our patience? And for how long will that madness of yours mock us?)</p>
-                            <p>Most text editors like MS Word or Lotus Notes generate random lorem text when needed, either as pre-installed module or plug-in to be added. Word selection or sequence don’t necessarily match the original, which is intended to add variety. </p>
-                            <h3>The Professional Publishing Platform</h3>
-                            <p>Cicero famously orated against his political opponent Lucius Sergius Catilina. Occasionally the first Oration against Catiline is taken for type specimens: Quo usque tandem abutere, Catilina, patientia nostra? Quam diu etiam furor iste tuus nos eludet? (How long, O Catiline, will you abuse our patience? And for how long will that madness of yours mock us?)</p>
-                            <p>Most text editors like MS Word or Lotus Notes generate random lorem text when needed, either as pre-installed module or plug-in to be added. Word selection or sequence don’t necessarily match the original, which is intended to add variety.</p>
+                            <h3>Воспользуйтесь нашим калькулятором</h3>
+                            <ul class="nav nav-tabs calc-tab justify-content-center justify-content-lg-start" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Ковры и покрытия</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Мягкая мебель</button>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="py-5">
+                                        <form action="#" id="carpet-form">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="">Введите длину:</label>
+                                                        <input step="any" name="lenght" type="number" placeholder="Длина в метрах, пример ( 1.2 )" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="">Введите ширину:</label>
+                                                        <input step="any" name="width" type="number" class="form-control" placeholder="Ширина в метрах, пример ( 1.5 )">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Выберите тип ковра</label>
+                                                        <select name="" id="" class="form-control" style="border-radius: 47px">
+                                                            <option value="">Вискоза</option>
+                                                            <option value="">Шегги</option>
+                                                            <option value="">Option 3</option>
+                                                            <option value="">Option 4</option>
+                                                            <option value="">Option 5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Выберите тип ковра</label>
+                                                        <select name="" id="" class="form-control" style="border-radius: 47px">
+                                                            <option value="">2-5 мм</option>
+                                                            <option value="">5-7 мм</option>
+                                                            <option value="">7-10 мм</option>
+                                                            <option value="">свыше 10 мм</option>
+                                                            <option value="">Option 5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="d-block d-md-flex d-lg-flex justify-content-start btn-group">
+                                                        <button type="submit" class="axil-button button-rounded hover-flip-item-wrapper mb-3">Отправить данные</button>
+                                                        <button type="reset" class="axil-button button-rounded hover-flip-item-wrapper">Очистить форму</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="py-5">
+                                        <form action="#">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="form-group">
+                                                        <label for="">Введите длину</label>
+                                                        <input name='' type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="form-group">
+                                                        <label for="">Введите длину</label>
+                                                        <input name='' type="text" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Выберите тип ковра</label>
+                                                        <select name="" id="" class="form-control" style="border-radius: 47px">
+                                                            <option value="">Option 1</option>
+                                                            <option value="">Option 2</option>
+                                                            <option value="">Option 3</option>
+                                                            <option value="">Option 4</option>
+                                                            <option value="">Option 5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Выберите тип ковра</label>
+                                                        <select name="" id="" class="form-control" style="border-radius: 47px">
+                                                            <option value="">Option 1</option>
+                                                            <option value="">Option 2</option>
+                                                            <option value="">Option 3</option>
+                                                            <option value="">Option 4</option>
+                                                            <option value="">Option 5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                              </div>    
                         </div>
                     </div>
                     <!-- End About Area  -->

@@ -28,47 +28,6 @@
                     <nav class="mainmenu-nav">
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu">
-                            
-                            {{-- <li class="menu-item-has-children"><a href="#">Главная</a>
-                                <ul class="axil-submenu">
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="index.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Home Default">Home Default</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="home-creative-blog.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Home Creative Blog">Home Creative Blog</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="home-seo-blog.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Home SEO Blog">Home SEO Blog</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="home-tech-blog.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Home Tech Blog">Home Tech Blog</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="hover-flip-item-wrapper" href="home-lifestyle-blog.html">
-                                            <span class="hover-flip-item">
-                                                <span data-text="Home Lifestyle Blog">Home Lifestyle Blog</span>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li> --}}
-
                             <li class="vertical-nav-item">
                                 <a href="{{ route('main.index') }}">Главная</a>
                             </li>
