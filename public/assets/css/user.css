@@ -1,0 +1,36 @@
+.round-100{
+    border-radius: 100px;
+    margin-right: 10px;
+  }
+.flink img{
+    max-width: 50px!important;
+}
+.flink span{
+    color:#65676B;
+    transition: all 0.3s;
+}
+.flink{
+    border-radius: 100px;
+    padding-right: 25px;
+    border: 1px solid #dedede;
+    transition: all 0.3s;
+}
+.flink:hover{
+    background: #ee3241;
+}
+.flink:hover span{
+    color: #fff;
+}
+.flink-list{
+    flex-wrap: wrap;
+}
+.flink-list li{
+    padding-right: 15px;
+}
+@media (max-width:768px) {
+    .flink span{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -14,7 +14,7 @@
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
                                     <a href="{{ route('main.kovri') }}" style="max-height: 600px">
-                                        <img src="https://mosproklining.ru/wp-content/uploads/2021/07/himchistka-kovra.jpg" alt="Post Images">
+                                        <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="Чистка и стирка ковров">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -53,7 +53,7 @@
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
                                     <a href="{{ route('main.mebel') }}" style="max-height: 600px">
-                                        <img src="https://www.openbusiness.ru/upload/iblock/9de/90ax2ck6cv1mh7r3quemzv6yczhbe6s5/cleaning1.jpg" alt="Post Images">
+                                        <img src="{{ asset('/assets/images/banner-2.jpg') }}" alt="Химчистка мягкой мебели">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -169,19 +169,7 @@
     <!-- Start Tab Area  -->
     <div class="axil-tab-area axil-section-gap bg-color-white">
         <div class="wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="axil-banner mb--30">
-                            <div class="thumbnail">
-                                <a href="#">
-                                    <img class="w-100" src="/assets/images/add-banner/banner-03.png" alt="Banner Images">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <x-fast-links/>
         </div>
     </div>
     <!-- End Tab Area  -->
