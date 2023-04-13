@@ -69,6 +69,7 @@ select{
 }
 .nav-tabs .nav-link{
     border: 1px solid #ee3241;
+    
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
     color: #65676B;
@@ -76,7 +77,36 @@ select{
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
     background: #ee3241;
     color: #fff;
+    border: 1px solid transparent;
 }
+/*  ============ DRY CLEANING START ============== */
+
+.fur-list{
+    white-space: nowrap;
+    overflow: auto;
+}
+.fur-item{
+    display: inline-block;
+    margin-right: 15px;
+    max-width: 150px;
+    max-height: auto;
+
+}
+.fur-item span{
+    font-weight: 600;
+    text-align: center;
+}
+.fur-item label [type=radio]{
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.fur-item label [type=radio]:checked + img{
+    border: 2px solid red
+}
+
+/*  ============  DRY CLEANING END  ============== */
 /* 
     End calculator css
 */
