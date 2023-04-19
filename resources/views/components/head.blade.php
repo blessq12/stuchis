@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/base.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1.1') }}">
 
 </head>
 
