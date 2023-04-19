@@ -96,15 +96,15 @@
     </div>
     <!-- End Banner Area -->
     {{-- info block area --}}
-    <div class="axil-section-gap bg-color-grey position-relative info-block-gap">
+    <div class="axil-section-gap bg-color-grey position-relative info-block-gap" style="padding-bottom: 0!important;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="info-block" style="
-                        border-left:15px solid #3858F6;
+                        border-left:5px solid #3858F6;
                         border-radius:10px;
                         min-height:100px;
-                        padding: 10px 30px;
+                        padding: 10px 20px;
                         ">
                         <h2>Здоровье и домашняя чистка ковров</h2>
                         <p>
@@ -218,7 +218,7 @@
                 <div class="col-lg-9 col-md-9 col-12">
                     <div class="section-title">
                         <h2 class="title mb-3">Не упустите возможность получить скидку <b>10%</b></h2>
-                        <p>Мы ценим наших клиентов и поэтому при заказе через сайт впервые вы получаете бесплатную консультацию, выезд для замера, а также мы берем на себя всю логистику от вашей двери и обратно!</p>
+                        <p>Мы ценим наших клиентов и поэтому <b>при заказе через сайт</b> впервые вы получаете <b>бесплатную консультацию</b>, выезд для замера, а также <b>мы берем на себя всю логистику</b> от вашей двери и обратно!</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3 text-left text-md-center text-lg-center">
@@ -235,7 +235,101 @@
         </div>
     </div>
     <!-- End Tab Area  -->
+    {{-- how we do section --}}
+    <div class="axil-tab-area axil-section-gap bg-color-grey cta-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="mb-3">Работаем только на результат, без оправданий</h2>
+                        <p>
+                            Мы учли все боли наших клиентов и поэтому <b>разработали собственную систему чистки</b>, которая способна устранить <b>до 99% любых сложных загрязнений и запахов</b>. 
+                            В нашей работе используется только проверенная опытом химия и <b>мы не скрываем того, как происходит процесс чистки</b>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .video-block{
+                    padding-top: 50px;
+                }
+                .how-we-do-block{
+                    display: block;
+                    position: relative;
+                    background: #fff;
+                    border-radius: 10px;
+                    margin-bottom: 40px;
+                }
+                .how-we-do-block .video{
+                    margin: 0;
+                    padding: 0;
+                    min-height: 200px;
+                    background: #3858F6;
+                    border-radius: 10px 10px 0 0;
 
+                }
+                .how-we-do-block span{
+                    position: absolute;
+                    left: 30px;
+                    top: -80px;
+                    font-size: 105px;
+                    font-weight: 900;
+                    color: #D93E40;
+                }
+            </style>
+            <div class="row video-block">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="how-we-do-block">
+                        <span>1.</span>
+                        <div class="video">
+                            
+                        </div>
+                        <div class="content p-4">
+                            <h4 class="mb-3">Выбивание пыли на станке</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="how-we-do-block">
+                        <span>2.</span>
+                        <div class="video">
+                            
+                        </div>
+                        <div class="content p-4">
+                            <h4 class="mb-3">Чистка ротором</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="how-we-do-block">
+                        <span>3.</span>
+                        <div class="video">
+                            
+                        </div>
+                        <div class="content p-4">
+                            <h4 class="mb-3">Отжим в центрифуге</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="how-we-do-block">
+                        <span>4.</span>
+                        <div class="video">
+                            
+                        </div>
+                        <div class="content p-4">
+                            <h4 class="mb-3">Сушильная камера</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end how we do section --}}
     <!-- Start Categories List  -->
     <div class="axil-categories-list axil-section-gap bg-color-grey">
         <div class="container">
