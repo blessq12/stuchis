@@ -660,7 +660,7 @@ p {
 @media only screen and (max-width: 767px) {
   p {
     margin: 0 0 20px;
-    font-size: var(--font-size-b4);
+    font-size: var(--font-size-b3);
     line-height: var(--line-height-b2);
   }
 }
