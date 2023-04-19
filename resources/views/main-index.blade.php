@@ -128,37 +128,6 @@
                 </div>
             </div>
             <div class="row">
-                <style>
-                    .block-to-whom{
-                        border: 1px solid #CED0D4;
-                        background: #F0F2F5;
-                        border-radius: 10px;
-                        transition: all 0.3s;
-                        min-height: 200px;
-                        overflow:hidden;
-                        padding: 15px 20px;
-                        position: relative;
-                    }
-                    .block-to-whom .content{
-                        width: 60%;
-                    }
-                    .block-to-whom .content h3{font-size: 24px; margin-bottom: 10px;}
-                    .block-to-whom .content p{font-size: 16px;}
-                    .block-to-whom .img{
-                        position: absolute;
-                        right: 0;
-                        bottom: 0;
-                        height: 100%;
-                        width: 40%;
-                        background-position: center center!important;
-                        background-repeat: no-repeat!important;
-                        background-size: cover!important;
-                        border-radius: 100px 0 0 0;
-                    }
-                    .block-to-whom:hover{
-                        background: #fff;
-                    }
-                </style>
                 {{-- Start Single Post --}}
                 <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
                     <div class="block-to-whom">
