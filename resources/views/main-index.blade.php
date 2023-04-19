@@ -13,8 +13,8 @@
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <a href="{{ route('main.kovri') }}" style="max-height: 600px">
-                                        <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="Чистка и стирка ковров">
+                                    <a href="" style="max-height: 600px">
+                                        <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="В поддержку семей и участников СВО">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -22,23 +22,23 @@
                                 <div class="post-content">
                                     <div class="post-cat">
                                         <div class="post-cat-list">
-                                            <a class="hover-flip-item-wrapper" href="{{ route('main.kovri') }}">
-                                                <span class="hover-flip-item">
-                                                    <span data-text="Чистка и стирка ковров">Чистка и стирка ковров</span>
+                                            <a class="hover-flip-item-wrapper" href="">
+                                                <span class="hover-flip-item" style="font-size:16px!important;">
+                                                    <span data-text="В поддержку семей и участников СВО">В поддержку семей и участников СВО</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
                                     <h2 class="title">
-                                        <a href="{{ route('main.kovri') }}">
-                                            Полный цикл услуг по стирке ковров и покровых покрытий
+                                        <a href="">
+                                            Мы запускаем акцию и предоставляем скидку на все наши услуги в период её проведения
                                         </a>
                                     </h2>
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
                                         <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="{{ route('main.kovri') }}">
-                                                <span class="hover-flip-item">
+                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
+                                                <span class="hover-flip-item" >
                                                     <span data-text="Подробнее">Подробнее</span>
                                                 </span>
                                             </a>
@@ -52,8 +52,8 @@
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <a href="{{ route('main.mebel') }}" style="max-height: 600px">
-                                        <img src="{{ asset('/assets/images/banner-2.jpg') }}" alt="Химчистка мягкой мебели">
+                                    <a href="" style="max-height: 600px">
+                                        <img src="{{ asset('/assets/images/banner-2.jpg') }}" alt="Стирка и чистка ковров">
                                     </a>
                                 </div>
                                 <!-- End Post Thumbnail  -->
@@ -61,15 +61,15 @@
                                 <div class="post-content">
                                     <div class="post-cat">
                                         <div class="post-cat-list">
-                                            <a class="hover-flip-item-wrapper" href="{{ route('main.mebel') }}">
-                                                <span class="hover-flip-item">
-                                                    <span data-text="Химчистка мягкой мебели и пр.">Химчистка мягкой мебели и пр.</span>
+                                            <a class="hover-flip-item-wrapper" href="">
+                                                <span class="hover-flip-item" style="font-size:16px!important;">
+                                                    <span data-text="фывфыв">фывфыв</span>
                                                 </span>
                                             </a>
                                         </div>
                                     </div>
                                     <h2 class="title">
-                                        <a href="{{ route('main.mebel') }}">
+                                        <a href="">
                                             Полный цикл улуг по химчистке мягкой мебели и предметов инттерьера
                                         </a>
                                     </h2>
@@ -77,7 +77,7 @@
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
                                         <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="{{ route('main.mebel') }}">
+                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
                                                 <span class="hover-flip-item">
                                                     <span data-text="Подробнее">Подробнее</span>
                                                 </span>
@@ -95,69 +95,145 @@
         </div>
     </div>
     <!-- End Banner Area -->
-
+    {{-- info block area --}}
+    <div class="axil-section-gap bg-color-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="info-block" style="
+                        border-left:15px solid #3858F6;
+                        border-radius:10px;
+                        min-height:100px;
+                        padding: 10px 30px;
+                        ">
+                        <h2>Здоровье и домашняя чистка ковров</h2>
+                        <p>
+                            Николас Бакалар опубликовал в 2003 году научное исследование, в котором он утверждал, что  <b>вирус</b> гриппа, также известный как «желудочный грипп», <b>может жить в течение месяца и больше на грязном ковре в доме.</b>
+                            Это еще одна причина, почему <b>вы должны следить за чистотой ковровых покрытий.</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end info block area --}}
     <!-- Start Featured Area  -->
     <div class="axil-featured-post axil-section-gap bg-color-grey">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2 class="title">Посмотритте полный перечень наших услуг</h2>
+                        <h2 class="title">Кому будут полезны наши услуги</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
+                <style>
+                    .block-to-whom{
+                        border: 1px solid #CED0D4;
+                        background: #F0F2F5;
+                        border-radius: 10px;
+                        transition: all 0.3s;
+                        min-height: 200px;
+                        overflow:hidden;
+                        padding: 15px 20px;
+                        position: relative;
+                    }
+                    .block-to-whom .content{
+                        width: 60%;
+                    }
+                    .block-to-whom .content h3{font-size: 24px; margin-bottom: 10px;}
+                    .block-to-whom .content p{font-size: 16px;}
+                    .block-to-whom .img{
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        height: 100%;
+                        width: 40%;
+                        background-position: center center!important;
+                        background-repeat: no-repeat!important;
+                        background-size: cover!important;
+                        border-radius: 100px 0 0 0;
+                    }
+                    .block-to-whom:hover{
+                        background: #fff;
+                    }
+                </style>
                 {{-- Start Single Post --}}
-                <div class="col-lg-6 col-xl-6 col-md-12 col-12 mt--30">
-                    <div class="content-block content-direction-column axil-control is-active post-horizontal thumb-border-rounded">
-                        <div class="post-content">
-                            <div class="post-cat">
-                                <div class="post-cat-list">
-                                    <a class="hover-flip-item-wrapper" href="{{ route('main.kovri') }}">
-                                        <span class="hover-flip-item">
-                                            <span data-text="Ковры и ковровые покрытия">Ковры и ковровые покрытия</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                            <h4 class="title">
-                                <a href="{{ route('main.kovri') }}">
-                                    Пречень услуг, цены и дополнительные услуги
-                                </a>
-                            </h4>
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>Семьям с маленькими детьми</h3>
+                            <p>
+                                Пыль - это серьезный провокатор появления у детей аллергии, даже если её не было
+                            </p>
                         </div>
-                        <div class="post-thumbnail">
-                            <a href="{{ route('main.kovri') }}">
-                                <img src="{{ asset('/assets/images/kovri.jpg') }}" alt="Ковры и ковровые покрытия">
-                            </a>
-                        </div>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-1.jpg') }}')"></div>
                     </div>
                 </div>
                 {{-- /Start Single Post --}}
                 {{-- Start Single Post --}}
-                <div class="col-lg-6 col-xl-6 col-md-12 col-12 mt--30">
-                    <div class="content-block content-direction-column axil-control is-active post-horizontal thumb-border-rounded">
-                        <div class="post-content">
-                            <div class="post-cat">
-                                <div class="post-cat-list">
-                                    <a class="hover-flip-item-wrapper" href="{{ route('main.mebel') }}">
-                                        <span class="hover-flip-item">
-                                            <span data-text="Мебель и предметы интерьера">Мебель и предметы интерьера</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                            <h4 class="title">
-                                <a href="{{ route('main.mebel') }}">
-                                    Мягкая мебель, предметы интерьера, мягкие игрушки и пр.
-                                </a>
-                            </h4>
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>Для тех у кого дома есть лучший друг</h3>
+                            <p>
+                                Помимо хороших эмоций, наши питомцы оставляют много шерсти и прочего на полу
+                            </p>
                         </div>
-                        <div class="post-thumbnail">
-                            <a href="{{ route('main.mebel') }}">
-                                <img src="{{ asset('/assets/images/sofa.jpg') }}" alt="Мягкая мебель и предметы интерьера">
-                            </a>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-2.jpg') }}')"></div>
+                    </div>
+                </div>
+                {{-- /Start Single Post --}}
+                {{-- Start Single Post --}}
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>Тем, кто любит и заботится о родителях</h3>
+                            <p>
+                                Родители оберегали нас, когда мы были маленькими, сейчас наше время проявить заботу
+                            </p>
                         </div>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-3.jpg') }}')"></div>
+                    </div>
+                </div>
+                {{-- /Start Single Post --}}
+                {{-- Start Single Post --}}
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>У кого только закончился ремонт</h3>
+                            <p>
+                                Бесконечно много пыли в процессе ремонта поднимается в воздух и оседает
+                            </p>
+                        </div>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-4.jpg') }}')"></div>
+                    </div>
+                </div>
+                {{-- /Start Single Post --}}
+                {{-- Start Single Post --}}
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>Кто совсем недавно переехал</h3>
+                            <p>
+                                Мало кто захочет после перетаскивания вещей начинать новую жизнь в пыли прошлого
+                            </p>
+                        </div>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-5.jpg') }}')"></div>
+                    </div>
+                </div>
+                {{-- /Start Single Post --}}
+                {{-- Start Single Post --}}
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12 mt--30">
+                    <div class="block-to-whom">
+                        <div class="content">
+                            <h3>Для тех, кому не безразлично его здоровье</h3>
+                            <p>
+                                Мы так привыкли к быту в вещах, что перестали воспринимать реальность угроз здоровью
+                            </p>
+                        </div>
+                        <div class="img" style="background: url('{{ asset('/assets/images/to-whom-6.jpg') }}')"></div>
                     </div>
                 </div>
                 {{-- /Start Single Post --}}

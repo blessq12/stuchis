@@ -81,31 +81,50 @@ select{
 }
 /*  ============ DRY CLEANING START ============== */
 
-.fur-list{
-    white-space: nowrap;
+.f-list{
     overflow: auto;
+    white-space: nowrap;
 }
-.fur-item{
+.f-item{
+    padding: 5px;
     display: inline-block;
-    margin-right: 15px;
-    max-width: 150px;
-    max-height: auto;
-
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 10px;
 }
-.fur-item span{
-    font-weight: 600;
-    text-align: center;
-}
-.fur-item label [type=radio]{
+.f-item [type=radio]{
     position: absolute;
+    opacity: 0;
     width: 0;
     height: 0;
 }
-
-.fur-item label [type=radio]:checked + img{
-    border: 2px solid red
+[type=radio]:checked + img{
+    outline: 3px solid #3858F6;
 }
-
+.seats-list{
+    white-space: nowrap;
+    overflow: auto;
+}
+.seat-item{
+    display: inline-block;
+    margin-right: 10px;
+}
+.seat-item label{
+    padding: 10px 15px;
+    border: 1px solid #ee3241;
+    border-radius: 10px;
+}
+.seat-item input[type=radio]{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.seat-item input[type=radio]:checked + label {
+    background: #ee3241;
+    color: #fff;
+}
 /*  ============  DRY CLEANING END  ============== */
 /* 
     End calculator css

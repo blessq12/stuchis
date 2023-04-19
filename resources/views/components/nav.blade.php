@@ -73,7 +73,7 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <a href="{{ route('main.kovri') }}">
+                                                                    <a href="">
                                                                         <img class="rounded" src="{{ asset('/assets/images/mnu-kovri.jpg') }}" alt="Стирка ковров и ковровых покрытий">
                                                                     </a>
                                                                 </div>
@@ -83,7 +83,7 @@
                                                                         Полный цикл услуг по стирке и чистке ковров и ковровых покрытий. Удаление сложных и стойких загрязнений, антибактериальная обработка. 
                                                                         Работы проводим как с выездом на адрес, так и с вывозом в цех.
                                                                     </p>
-                                                                    <a href="{{ route('main.kovri') }}" class="axil-button button-rounded hover-flip-item-wrapper">Подробнее об услуге</a>
+                                                                    <a href="" class="axil-button button-rounded hover-flip-item-wrapper">Подробнее об услуге</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -102,7 +102,7 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <a href="{{ route('main.mebel') }}">
+                                                                    <a href="">
                                                                         <img class="rounded" src="{{ asset('/assets/images/mnu-mebel.jpg') }}" alt="Химчистка мягкой мебели и предметов интерьера">
                                                                     </a>
                                                                 </div>
@@ -112,7 +112,7 @@
                                                                         Полный цикл услуг по химчистке и чистке мягкой мебели и не только. Удаление сложных и стойких загрязнений, антибактериальная обработка. 
                                                                         Как правило, работы проводим по адресу клиента.
                                                                     </p>
-                                                                    <a href="{{ route('main.mebel') }}" class="axil-button button-rounded hover-flip-item-wrapper">Подробнее об услуге</a>
+                                                                    <a href="" class="axil-button button-rounded hover-flip-item-wrapper">Подробнее об услуге</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -130,7 +130,7 @@
                                                         <div class="col-lg-12">
                                                             <div class="row align-items-center">
                                                                 <div class="col-6">
-                                                                    <a href="{{ route('main.calculator') }}">
+                                                                    <a href="">
                                                                         <img class="rounded" src="{{ asset('/assets/images/calc-menu.jpg') }}" alt="Рассчитать предварительную стоимость стало проще!">
                                                                     </a>
                                                                 </div>
@@ -140,7 +140,7 @@
                                                                         Для подсчета предварительной стоимости на наши услуги - воспользуйтесь нашим онлайн калькулятором.
 
                                                                     </p>
-                                                                    <a href="{{ route('main.calculator') }}" class="axil-button button-rounded hover-flip-item-wrapper">Перейти к рассчету</a>
+                                                                    <a href="" class="axil-button button-rounded hover-flip-item-wrapper">Перейти к рассчету</a>
                                                                 </div>
                                                             </div>
                                                         </div>

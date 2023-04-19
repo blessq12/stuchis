@@ -8,7 +8,7 @@
             <ul class="d-block d-md-flex d-lg-flex list-unstyled flink-list">
                 
                 <li>
-                    <a href="{{ route('main.kovri') }}">
+                    <a href="">
                         <div class="d-flex align-items-center flink">
                             <img src="{{ asset('/assets/images/link-icons/carpet.jpg') }}" class="round-100" alt="Стирка ковров">
                             <span>Стирка ковров</span>
@@ -17,7 +17,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('main.mebel') }}">
+                    <a href="">
                         <div class="d-flex align-items-center flink">
                             <img src="{{ asset('/assets/images/link-icons/sofa.jpg') }}" class="round-100" alt="Стирка ковров">
                             <span>Химчистка мебели</span>
@@ -26,7 +26,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('main.calculator') }}">
+                    <a href="">
                         <div class="d-flex align-items-center flink">
                             <img src="{{ asset('/assets/images/link-icons/rub.jpg') }}" class="round-100" alt="Стирка ковров">
                             <span>Расчет стоимости</span>
@@ -35,7 +35,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('main.calculator') }}">
+                    <a href="">
                         <div class="d-flex align-items-center flink">
                             <img src="{{ asset('/assets/images/link-icons/phone.jpg') }}" class="round-100" alt="Стирка ковров">
                             <span>Позвонить</span>
@@ -44,7 +44,7 @@
                 </li>
 
                 <li>
-                    <a href="{{ route('main.calculator') }}">
+                    <a href="">
                         <div class="d-flex align-items-center flink">
                             <img src="{{ asset('/assets/images/link-icons/wa.jpg') }}" class="round-100" alt="Стирка ковров">
                             <span>WhatsApp диалог</span>
