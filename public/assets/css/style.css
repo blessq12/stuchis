@@ -614,7 +614,7 @@ h6 a,
   }
   h2,
 .h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
   h3,
 .h3 {
@@ -660,7 +660,7 @@ p {
 @media only screen and (max-width: 767px) {
   p {
     margin: 0 0 20px;
-    font-size: var(--font-size-b2);
+    font-size: var(--font-size-b4);
     line-height: var(--line-height-b2);
   }
 }

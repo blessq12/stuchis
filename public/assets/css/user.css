@@ -27,8 +27,54 @@
 .block-to-whom:hover{
     background: #fff;
 }
+.cta-gap{
+    background-position: center center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+}
+.cta-button{
+    width: 100%!important;
+    padding: 20px 35px!important;
+    font-size: 22px!important;
+    border: none!important;
+    background: #3858F6!important;
+    text-align: center;
+    height: max-content!important;
+    position: relative;
+}
+.cta-button:hover::after{
+    width: 100%;
+}
+.cta-button span{
+    position: relative;
+    z-index: 2;
+}
+.cta-button::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    display: block;
+    height: 100%;
+    background: #D93E40;
+    transition: all 0.3s;
+}
 
 @media (max-width: 768px) {
     .block-to-whom .content h3{font-size: 20px; margin-bottom: 10px;}
     .block-to-whom .content p{font-size: 12px;}
+    .info-block-gap{padding-bottom: 0!important;}
+    .cta-button{
+        margin-top: 30px;
+        width: auto!important;
+        padding: 5px 35px!important;
+        font-size: 16px!important;
+        border: none!important;
+        background: #3858F6!important;
+        text-align: center;
+        height: max-content!important;
+        position: relative;
+        
+    }
 }

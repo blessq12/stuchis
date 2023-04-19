@@ -96,7 +96,7 @@
     </div>
     <!-- End Banner Area -->
     {{-- info block area --}}
-    <div class="axil-section-gap bg-color-grey">
+    <div class="axil-section-gap bg-color-grey position-relative info-block-gap">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -212,9 +212,26 @@
     <!-- End Featured Area  -->
 
     <!-- Start Tab Area  -->
-    <div class="axil-tab-area axil-section-gap bg-color-white">
-        <div class="wrapper">
-            <x-fast-links/>
+    <div class="axil-tab-area axil-section-gap bg-color-white cta-gap" style="background: url('{{ asset('/assets/images/cta-gap-background.jpg') }}')">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-md-9 col-12">
+                    <div class="section-title">
+                        <h2 class="title">Не упустите возможность получить скидку <b>10%</b></h2>
+                        <p style="max-width: 60%">Мы ценим наших клиентов и поэтому при заказе через сайт впервые вы получаете бесплатную консультацию, выезд для замера, а также мы берем на себя всю логистику от вашей двери и обратно!</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 text-left text-md-center text-lg-center">
+                    <a href="javacsript:void(0)"
+                       class="axil-button button-rounded hover-flip-item-wrapper cta-button"
+                       onclick="alert('button pressed cta')"
+                       >
+                       <span>
+                            Получить скидку!
+                       </span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End Tab Area  -->
