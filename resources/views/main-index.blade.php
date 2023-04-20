@@ -284,7 +284,10 @@
                         <div class="video" style="background: url('{{ asset('/assets/images/dust_remover.gif') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Выбивание пыли на станке</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                            <p>
+                                Это грубое выбивание, <b>таким способом удаляется до 3,5 кг. пыли, песка, мусора и грунта</b>, которые не в силах поднять бытовой пылесос. 
+                                Станок <b>не только выбивает, но и вычесывает</b> ворс от волос, шерсти и прочей мелочи(<b>иглы, булавки, рыбные кости и пр</b>).
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -293,30 +296,38 @@
                         <span>2.</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/rotor.gif') }}')"></div>
                         <div class="content p-4">
-                            <h4 class="mb-3">Чистка ротором</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                            <h4 class="mb-3">Чистка роторной машиной</h4>
+                            <p>
+                                Чтобы максимально <b>эффективно удалить</b> все загрязнения <b>из глубины ковра</b> используется этот метод, а также очищается ворс ковра <b>по всей длине</b>. 
+                                Так достигается глубокая очистка - это <b>помогает поднять слежавшийся</b> ворс, например, от "ножек" дивана
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>3.</span>
-                        <div class="video" style="background: url('{{ asset('') }}')"></div>
+                        <div class="video" style="background: url('{{ asset('/assets/images/centrifuge.gif') }}')"></div>
                         <div class="content p-4">
-                            <h4 class="mb-3">Отжим в центрифуге</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                            <h4 class="mb-3">Отжим в промышленной центрифуге</h4>
+                            <p>
+                                Это помогает <b>удалить до 90-95% влаги</b> из ковра или коврового покрытия, а достигается путём <b>вращения барабана до 1200 оборотов в минуту</b>. 
+                                При таком влагоудалении <b>не остается</b> вероятности появления <b>запаха затхлости</b>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>4.</span>
-                        <div class="video">
-                            
-                        </div>
+                        <div class="video" style="background: url('{{ asset('/assets/images/drying.gif') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Сушильная камера</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
+                            <p>
+                                Сушка происходит в <b>герметичной камере</b>, внутри которой поддерживается <b>определенная влажность и температура</b>. 
+                                Ковер высыхает, в среднем, <b>от 12 до 18 часов</b>. 
+                                В ней же происходит и озонирование, после полного высыхания
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -324,6 +335,63 @@
         </div>
     </div>
     {{-- end how we do section --}}
+    {{-- info block area --}}
+    <div class="axil-section-gap bg-color-grey position-relative info-block-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="info-block" style="
+                        border-left:5px solid #3858F6;
+                        border-radius:10px;
+                        min-height:100px;
+                        padding: 10px 20px;
+                        ">
+                        <h2>Интересные факты про пыль в помещениях</h2>
+                        <p>
+                            <b>Воздух в помещении</b>, как правило, содержит примерно вдвое больше пыли, чем воздух снаружи.
+                            А это приблизительно <b>миллион микроскопических частиц</b> в кубическом сантиметре воздуха. 
+                            Около <b>2000 пылевых клещей могут счастливо проживать в 30 граммах пыли</b>, скопившейся на вашем ковре.
+                            С человека осыпается <b>около 1,5 миллионов чешуек кожи в час</b>, большинство из них упадет на ваш ковер.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end info block area --}}
+
+    {{-- calculator block --}}
+    <div class="axil-section-gap bg-color-white position-relative info-block-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title mb-4">
+                        <h2 class="m-0">Оставьте заявку сейчас, указав всё о потребности</h2>
+                        <p>Чтобы узнать стоимость услуги - предлагаем пройти небольшой опрос ниже</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <style>
+                    .quiz{
+                        min-height: 200px;
+                        padding: 10px 15px;
+                        border: 1px solid #D93E40;
+                        border-radius: 15px;
+                    }
+                </style>
+                <div class="col-12">
+                    <div class="quiz">
+                        <div class="step" data-step="first">
+                        </div>
+                        <div class="step" data-step=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end calculator block --}}
+
     <!-- Start Categories List  -->
     <div class="axil-categories-list axil-section-gap bg-color-grey">
         <div class="container">
