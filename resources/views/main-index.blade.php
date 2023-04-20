@@ -281,9 +281,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>1.</span>
-                        <div class="video">
-                            
-                        </div>
+                        <div class="video" style="background: url('{{ asset('/assets/images/dust_remover.gif') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Выбивание пыли на станке</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
@@ -293,9 +291,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>2.</span>
-                        <div class="video">
-                            
-                        </div>
+                        <div class="video" style="background: url('{{ asset('/assets/images/rotor.gif') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Чистка ротором</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
@@ -305,9 +301,7 @@
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>3.</span>
-                        <div class="video">
-                            
-                        </div>
+                        <div class="video" style="background: url('{{ asset('') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Отжим в центрифуге</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt natus dolore dolor aliquam. Reiciendis exercitationem blanditiis praesentium! Ea, labore quis fuga perspiciatis eligendi amet, mollitia sed temporibus animi maiores vel?</p>
