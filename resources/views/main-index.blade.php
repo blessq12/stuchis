@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Start Banner Area -->
-    <h1 class="d-none">Home Default Blog</h1>
+    <h1 class="d-none">Стирка ковров и ковровых покрытий</h1>
     <div class="slider-area bg-color-grey">
         <div class="axil-slide slider-style-1">
             <div class="container">
@@ -39,46 +39,6 @@
                                         <div class="read-more-button cerchio">
                                             <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
                                                 <span class="hover-flip-item" >
-                                                    <span data-text="Подробнее">Подробнее</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Post Content  -->
-                            </div>
-                            {{-- /Single slider --}}
-                            {{-- Single slider --}}
-                            <div class="content-block">
-                                <!-- Start Post Thumbnail  -->
-                                <div class="post-thumbnail">
-                                    <a href="" style="max-height: 600px">
-                                        <img src="{{ asset('/assets/images/banner-2.jpg') }}" alt="Стирка и чистка ковров">
-                                    </a>
-                                </div>
-                                <!-- End Post Thumbnail  -->
-                                <!-- Start Post Content  -->
-                                <div class="post-content">
-                                    <div class="post-cat">
-                                        <div class="post-cat-list">
-                                            <a class="hover-flip-item-wrapper" href="">
-                                                <span class="hover-flip-item" style="font-size:16px!important;">
-                                                    <span data-text="фывфыв">фывфыв</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <h2 class="title">
-                                        <a href="">
-                                            Полный цикл улуг по химчистке мягкой мебели и предметов инттерьера
-                                        </a>
-                                    </h2>
-
-                                    <!-- Post Meta  -->
-                                    <div class="post-meta-wrapper with-button">
-                                        <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
-                                                <span class="hover-flip-item">
                                                     <span data-text="Подробнее">Подробнее</span>
                                                 </span>
                                             </a>
@@ -243,7 +203,7 @@
                     <div class="section-title">
                         <h2 class="mb-3">Работаем только на результат, без оправданий</h2>
                         <p>
-                            Мы учли все боли наших клиентов и поэтому <b>разработали собственную систему чистки</b>, которая способна устранить <b>до 99% любых сложных загрязнений и запахов</b>. 
+                            Мы учли все боли наших клиентов и поэтому <b>разработали собственную систему чистки</b>, которая способна устранить <b>до 99% любых сложных загрязнений и запахов</b>.
                             В нашей работе используется только проверенная опытом химия и <b>мы не скрываем того, как происходит процесс чистки</b>.
                         </p>
                     </div>
@@ -276,16 +236,28 @@
                     font-weight: 900;
                     color: #D93E40;
                 }
+                .how-we-do-block span.ticket{
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                    padding: 5px 10px;
+                    background: #D93E40;
+                    color: #fff;
+                    width: fit-content;
+                    font-size: 12px;
+                    left: auto;
+                }
             </style>
             <div class="row video-block">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
                         <span>1.</span>
+                        <span class="ticket text-uppercase">Видео замедлено</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/dust_remover.gif') }}')"></div>
                         <div class="content p-4">
                             <h4 class="mb-3">Выбивание пыли на станке</h4>
                             <p>
-                                Это грубое выбивание, <b>таким способом удаляется до 3,5 кг. пыли, песка, мусора и грунта</b>, которые не в силах поднять бытовой пылесос. 
+                                Это грубое выбивание, <b>таким способом удаляется до 3,5 кг. пыли, песка, мусора и грунта</b>, которые не в силах поднять бытовой пылесос.
                                 Станок <b>не только выбивает, но и вычесывает</b> ворс от волос, шерсти и прочей мелочи(<b>иглы, булавки, рыбные кости и пр</b>).
                             </p>
                         </div>
@@ -298,7 +270,7 @@
                         <div class="content p-4">
                             <h4 class="mb-3">Чистка роторной машиной</h4>
                             <p>
-                                Чтобы максимально <b>эффективно удалить</b> все загрязнения <b>из глубины ковра</b> используется этот метод, а также очищается ворс ковра <b>по всей длине</b>. 
+                                Чтобы максимально <b>эффективно удалить</b> все загрязнения <b>из глубины ковра</b> используется этот метод, а также очищается ворс ковра <b>по всей длине</b>.
                                 Так достигается глубокая очистка - это <b>помогает поднять слежавшийся</b> ворс, например, от "ножек" дивана
                             </p>
                         </div>
@@ -311,7 +283,7 @@
                         <div class="content p-4">
                             <h4 class="mb-3">Отжим в промышленной центрифуге</h4>
                             <p>
-                                Это помогает <b>удалить до 90-95% влаги</b> из ковра или коврового покрытия, а достигается путём <b>вращения барабана до 1200 оборотов в минуту</b>. 
+                                Это помогает <b>удалить до 90-95% влаги</b> из ковра или коврового покрытия, а достигается путём <b>вращения барабана до 1200 оборотов в минуту</b>.
                                 При таком влагоудалении <b>не остается</b> вероятности появления <b>запаха затхлости</b>
                             </p>
                         </div>
@@ -324,8 +296,8 @@
                         <div class="content p-4">
                             <h4 class="mb-3">Сушильная камера</h4>
                             <p>
-                                Сушка происходит в <b>герметичной камере</b>, внутри которой поддерживается <b>определенная влажность и температура</b>. 
-                                Ковер высыхает, в среднем, <b>от 12 до 18 часов</b>. 
+                                Сушка происходит в <b>герметичной камере</b>, внутри которой поддерживается <b>определенная влажность и температура</b>.
+                                Ковер высыхает, в среднем, <b>от 12 до 18 часов</b>.
                                 В ней же происходит и озонирование, после полного высыхания
                             </p>
                         </div>
@@ -349,7 +321,7 @@
                         <h2>Интересные факты про пыль в помещениях</h2>
                         <p>
                             <b>Воздух в помещении</b>, как правило, содержит примерно вдвое больше пыли, чем воздух снаружи.
-                            А это приблизительно <b>миллион микроскопических частиц</b> в кубическом сантиметре воздуха. 
+                            А это приблизительно <b>миллион микроскопических частиц</b> в кубическом сантиметре воздуха.
                             Около <b>2000 пылевых клещей могут счастливо проживать в 30 граммах пыли</b>, скопившейся на вашем ковре.
                             С человека осыпается <b>около 1,5 миллионов чешуек кожи в час</b>, большинство из них упадет на ваш ковер.
                         </p>
@@ -374,17 +346,56 @@
             <div class="row">
                 <style>
                     .quiz{
-                        min-height: 200px;
-                        padding: 10px 15px;
+                        min-height: 500px;
+                        padding: 35px 45px;
                         border: 1px solid #D93E40;
                         border-radius: 15px;
                     }
+                    .quiz ul{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    .quiz ul li{
+                        padding: 0 15px 0 0;
+                    }
+                    .list-item{
+                        min-height: 250px;
+                        min-width: 200px;
+                        padding: 10px;
+                        border-radius: 10px;
+                        background: #3858F6;
+                    }
                 </style>
+                <script>
+                    let ListItem = document.getElementsByClassName("list-item")
+                    console.log(ListItem[0])
+                </script>
                 <div class="col-12">
                     <div class="quiz">
-                        <div class="step" data-step="first">
+                        <div class="step step-show" data-step="first">
+                            <h4>Выберите из списка тип коврового покрытия:</h4>
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    <div class="list-item">1</div>
+                                </li>
+                                <li>
+                                    <div class="list-item">2</div>
+                                </li>
+                                <li>
+                                    <div class="list-item">3</div>
+                                </li>
+                                <li>
+                                    <div class="list-item">4</div>
+                                </li>
+                                <li>
+                                    <div class="list-item">5</div>
+                                </li>
+                                <li>
+                                    <div class="list-item">6</div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="step" data-step=""></div>
+                        <div class="step step-hide" data-step=""></div>
                     </div>
                 </div>
             </div>
