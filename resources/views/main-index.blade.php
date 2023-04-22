@@ -355,10 +355,16 @@
                         display: flex;
                         flex-wrap: wrap;
                     }
-                    .quiz ul li{
+                    .tab ul li{
                         padding: 0 15px 0 0;
                     }
-                    .list-item{
+                    .tab{
+                        display:none;
+                    }
+                    .tab-show{
+                        display: block!important;
+                    }
+                    .item{
                         min-height: 250px;
                         min-width: 200px;
                         padding: 10px;
@@ -366,36 +372,48 @@
                         background: #3858F6;
                     }
                 </style>
-                <script>
-                    let ListItem = document.getElementsByClassName("list-item")
-                    console.log(ListItem[0])
-                </script>
                 <div class="col-12">
                     <div class="quiz">
-                        <div class="step step-show" data-step="first">
-                            <h4>Выберите из списка тип коврового покрытия:</h4>
-                            <ul class="list-unstyled d-flex">
-                                <li>
-                                    <div class="list-item">1</div>
-                                </li>
-                                <li>
-                                    <div class="list-item">2</div>
-                                </li>
-                                <li>
-                                    <div class="list-item">3</div>
-                                </li>
-                                <li>
-                                    <div class="list-item">4</div>
-                                </li>
-                                <li>
-                                    <div class="list-item">5</div>
-                                </li>
-                                <li>
-                                    <div class="list-item">6</div>
-                                </li>
-                            </ul>
+                        @csrf
+                        <div class="tab" data-step="0">
+                                <div class="header"><h4>Выберите какой у вас тип ковра:</h4></div>
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="item" data-carpet="carpet1">kover1</div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-carpet="carpet2">kover2</div>
+                                        </li>
+                                    </ul>
+                                </div>
                         </div>
-                        <div class="step step-hide" data-step=""></div>
+                        <div class="tab" data-step="1">
+                            <div class="header"><h4>Высота ворса:</h4></div>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="item" data-vors="vors1">vors1</div>
+                                    </li>
+                                    <li>
+                                        <div class="item" data-vors="vors2">vors2</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab" data-step="2">
+                            <div class="header"><h4>Высота ворса2:</h4></div>
+                            <div class="content">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <div class="item" data-vors="vors21">vors12</div>
+                                    </li>
+                                    <li>
+                                        <div class="item" data-vors="vors22">vors22</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
