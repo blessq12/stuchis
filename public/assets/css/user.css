@@ -128,7 +128,7 @@
 @media (max-width: 768px) {
     .block-to-whom .content h3{font-size: 20px; margin-bottom: 10px;}
     .block-to-whom .content p{font-size: 12px;}
-    .info-block-gap{padding-bottom: 0!important;}
+    
     .cta-button{
         margin-top: 30px;
         width: 100%!important;
@@ -167,6 +167,6 @@
         max-width: 100%;
     }
     .contact-group{
-        width: 100%;
+        max-width: 100%;
     }
 }
