@@ -604,5 +604,18 @@
         </div>
     </div>
     <!-- Start Categories List  -->
-
+    {{-- contact --}}
+    <div class="axil-categories-list axil-section-gap bg-color-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title mb-5">
+                        <h2 class="m-0">Контактная информация</h2>
+                        <p>Все способы для связи с нами в одном месте</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- end contact --}}
 @endsection

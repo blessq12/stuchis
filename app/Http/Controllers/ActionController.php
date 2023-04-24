@@ -14,6 +14,6 @@ class ActionController extends Controller
         $requestData = json_decode($requestData);
         $requestData = json_decode(json_encode($requestData), true);
 
-        Mail::to('code70@inbox.ru')->send(new CalcMailer($requestData));
+        Mail::to('stuchis@yandex.ru')->send(new CalcMailer($requestData));
     }
 }
