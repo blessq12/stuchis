@@ -14,17 +14,4 @@ class MainController extends Controller
             'image' => 'http://via.placeholder.com/1920x1080'
         ]);
     }
-    public function kovri(){
-        return view('kovri');
-    }
-    public function mebel(){
-        return view('mebel');
-    }
-
-    public function contact(){
-        return view('contact');
-    }
-    public function calculator(){
-        return view('calculator');
-    }
 }

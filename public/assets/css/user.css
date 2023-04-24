@@ -60,7 +60,71 @@
     background: #D93E40;
     transition: all 0.3s;
 }
-
+/* quiz */
+.quiz{
+    min-height: 500px;
+    padding: 35px 45px;
+    border: 1px solid #D93E40;
+    border-radius: 15px;
+    position: relative;
+}
+.quiz ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tab ul li{
+    padding: 0 15px 0 0;
+}
+.tab{
+    display:none;
+}
+.tab-show{
+    display: block!important;
+}
+.item{
+    min-height: 250px;
+    min-width: 200px;
+    border-radius: 10px;
+    border: 1px solid #CED0D4;
+    cursor: pointer;
+}
+.item .image{
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    background-position: center center!important;
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+}
+.item .name{
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.tab .header{
+    margin-bottom: 15px;
+}
+.check-item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 40%;
+    padding: 10px 15px;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.check-item label{
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+}
+.check-item input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+.contact-group{
+    max-width: 40%;
+}
 @media (max-width: 768px) {
     .block-to-whom .content h3{font-size: 20px; margin-bottom: 10px;}
     .block-to-whom .content p{font-size: 12px;}

@@ -8,7 +8,7 @@
 
                     <div class="col-lg-4 col-md-4">
                         <div class="logo">
-                            <a href="{{ route('main.index') }}" class="d-flex align-items-center">
+                            <a href="/" class="d-flex align-items-center">
                                 <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
                                 <h4 style="margin:0 0 0 10px;">{{ env('APP_NAME') }}</h4>
                             </a>

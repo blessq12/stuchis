@@ -337,82 +337,156 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="section-title mb-4">
+                    <div class="section-title mb-5">
                         <h2 class="m-0">Оставьте заявку сейчас, указав всё о потребности</h2>
                         <p>Чтобы узнать стоимость услуги - предлагаем пройти небольшой опрос ниже</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <style>
-                    .quiz{
-                        min-height: 500px;
-                        padding: 35px 45px;
-                        border: 1px solid #D93E40;
-                        border-radius: 15px;
-                    }
-                    .quiz ul{
-                        display: flex;
-                        flex-wrap: wrap;
-                    }
-                    .tab ul li{
-                        padding: 0 15px 0 0;
-                    }
-                    .tab{
-                        display:none;
-                    }
-                    .tab-show{
-                        display: block!important;
-                    }
-                    .item{
-                        min-height: 250px;
-                        min-width: 200px;
-                        padding: 10px;
-                        border-radius: 10px;
-                        background: #3858F6;
-                    }
-                </style>
                 <div class="col-12">
                     <div class="quiz">
                         @csrf
+                        {{-- carpet type --}}
                         <div class="tab" data-step="0">
-                                <div class="header"><h4>Выберите какой у вас тип ковра:</h4></div>
+                                <div class="header">
+                                    <h4 class="m-0">Выберите какой у вас тип ковра:</h4>
+                                    <p>Выберите подходящий тип ковра(коврового покрытия), если затрудняетесь с ответом, можете выбрать вариант "не знаю"</p>
+                                </div>
                                 <div class="content">
                                     <ul class="list-unstyled">
                                         <li>
-                                            <div class="item" data-carpet="carpet1">kover1</div>
+                                            <div class="item" data-attr="carpet-type" data-value="Безворсовый">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Безворсовый</div>
+                                            </div>
                                         </li>
                                         <li>
-                                            <div class="item" data-carpet="carpet2">kover2</div>
+                                            <div class="item" data-attr="carpet-type" data-value="Ковролин">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Ковролин</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Синтетика">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Синтетика</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Вискоза">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Вискоза</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Акрил">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Акрил</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Бамбук">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Бамбук</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Шелк">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Шелк</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Шерсть">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Шерсть</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item" data-attr="carpet-type" data-value="Шегги">
+                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="name">Шегги</div>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
                         </div>
+                        {{-- carpet height --}}
                         <div class="tab" data-step="1">
-                            <div class="header"><h4>Высота ворса:</h4></div>
+                            <div class="header">
+                                <h4 class="m-0">Выбыерите высоту ворса:</h4>
+                                <p>Различают три подвида: высоковорсный (от 5 мм), средневорсовый (3-5 мм), и коротковорсный (2-3 мм).</p>
+                            </div>
                             <div class="content">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <div class="item" data-vors="vors1">vors1</div>
+                                        <div class="item" data-attr="carpet-height" data-value="Коротковорстный">
+                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="name">Коротковорстный</div>
+                                        </div>
                                     </li>
                                     <li>
-                                        <div class="item" data-vors="vors2">vors2</div>
+                                        <div class="item" data-attr="carpet-height" data-value="Средневорстный">
+                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="name">Средневорстный</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item" data-attr="carpet-height" data-value="Высоковорстный">
+                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="name">Высоковорстный</div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="tab" data-step="2">
+                            <div class="header">
+                                <h4 class="m-0">Укажите дополнительные загрязнения:</h4>
+                                <p>какой то текст</p>
+                            </div>
+                            <div class="content">
+                                <div class="check-group">
+                                    <div class="check-item">
+                                        <input type="checkbox" data-attr="trace" id="q">
+                                        <label for="q">Затоптанность (следы от мебели)</label>
+                                    </div>
+                                    <div class="check-item">
+                                        <input type="checkbox" data-attr="smells" id="w">
+                                        <label for="w">Неприятные запахи</label>
+                                    </div>
+                                    <div class="check-item">
+                                        <input type="checkbox" data-attr="urine" name="" id="e">
+                                        <label for="e">Моча животных</label>
+                                    </div>
+                                    <div class="check-item">
+                                        <input type="checkbox" data-attr="emergency" name="" id="r">
+                                        <label for="r">После ЧС (потоп, пожар и пр.)</label>
+                                    </div>
+                                </div>
+                
+                            </div>
+                        </div>
+                        <div class="tab" data-step="3">
                             <div class="header"><h4>Высота ворса2:</h4></div>
                             <div class="content">
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <div class="item" data-vors="vors21">vors12</div>
-                                    </li>
-                                    <li>
-                                        <div class="item" data-vors="vors22">vors22</div>
-                                    </li>
-                                </ul>
+                                <div class="quiz-contact">
+                                    <div class="form-group contact-group">
+                                        <label for="">Введите имя</label>
+                                        <input type="text" class="form-control" name="name" required>
+                                    </div>
+                                    <div class="form-group contact-group">
+                                        <label for="">Введите номер телефона</label>
+                                        <input type="text" class="form-control" name="phone" placeholder="+7(XXX)XXX-XX-XX" required>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="navigation d-flex justify-content-start align-items-center">
+                            <button class="prev-button w-auto axil-button button-rounded hover-flip-item-wrapper d-none">Назад</button>
+                            <button class="next-button w-auto axil-button button-rounded hover-flip-item-wrapper d-none">Продолжить</button>
+                            <button class="submit w-auto d-none axil-button button-rounded hover-flip-item-wrapper" style="background:#D93E40;border:none;">Получить рассчет</button>
                         </div>
                     </div>
                 </div>

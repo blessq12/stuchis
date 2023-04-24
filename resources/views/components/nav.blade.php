@@ -4,7 +4,7 @@
         <div class="row justify-content-between align-items-center">
             <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
                 <div class="logo">
-                    <a href="{{ route('main.index') }}" class="mb-4 mb-md-0 mb-lg-0 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start">
+                    <a href="/" class="mb-4 mb-md-0 mb-lg-0 d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start">
                         <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
                         <div class="d-block px-3 text-uppercase logo-text">
                             <span class="d-block" style="
@@ -29,7 +29,7 @@
                         <!-- Start Mainmanu Nav -->
                         <ul class="mainmenu">
                             <li class="vertical-nav-item">
-                                <a href="{{ route('main.index') }}">Главная</a>
+                                <a href="/">Главная</a>
                             </li>
                             <li class="menu-item-has-children megamenu-wrapper"><a href="javascript:void(0)">Услуги</a>
                                 <ul class="megamenu-sub-menu">

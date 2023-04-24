@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ActionController;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +16,7 @@ use App\Http\Controllers\MainController;
 |
 */
 //Main domain group routes
-Route::domain(env('APP_URL'))->group(function(){
-    $mainRoutes = function(){
-        Route::get('/','index')->name('index');
-    };
+Route::get('/',[MainController::class,'index']);
 
-    //Controllers route groups
-    Route::controller(MainController::class)->name('main.')->group($mainRoutes);
-});
+Route::post('/action/calc',[ActionController::class,'calc']);
+
