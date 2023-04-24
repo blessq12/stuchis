@@ -141,4 +141,32 @@
         position: relative;
         
     }
+    .content ul{
+        display: block;
+    }
+    .content ul li .item{
+        display:flex;
+        align-items: center;
+        min-height: 60px;
+        width: 100%;
+    }
+    .content ul li .item .image{
+        height: 60px;
+        width: 60px;
+        display: block;
+    }
+    .tab ul li{
+        padding: 0;
+    }
+    .quiz{
+        max-height: 600px;
+        overflow: auto;
+        padding: 15px 25px;
+    }
+    .check-group .check-item{
+        max-width: 100%;
+    }
+    .contact-group{
+        width: 100%;
+    }
 }

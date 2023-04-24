@@ -347,7 +347,6 @@
                 <div class="col-12">
                     <div class="quiz">
                         @csrf
-                        {{-- carpet type --}}
                         <div class="tab" data-step="0">
                                 <div class="header">
                                     <h4 class="m-0">Выберите какой у вас тип ковра:</h4>
@@ -357,62 +356,61 @@
                                     <ul class="list-unstyled">
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Безворсовый">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/bezvors.jpg') }}')"></div>
                                                 <div class="name">Безворсовый</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Ковролин">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/kovrolin.jpg') }}')"></div>
                                                 <div class="name">Ковролин</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Синтетика">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/sintetika.jpg') }}')"></div>
                                                 <div class="name">Синтетика</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Вискоза">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/viskoza.jpg') }}')"></div>
                                                 <div class="name">Вискоза</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Акрил">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/akril.jpg') }}')"></div>
                                                 <div class="name">Акрил</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Бамбук">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/bambuk.jpg') }}')"></div>
                                                 <div class="name">Бамбук</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Шелк">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/shelk.jpg') }}')"></div>
                                                 <div class="name">Шелк</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Шерсть">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/sherst.jpg') }}')"></div>
                                                 <div class="name">Шерсть</div>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="item" data-attr="carpet-type" data-value="Шегги">
-                                                <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                                <div class="image" style="background: url('{{ asset('/assets/images/carpets/shaggy.jpg') }}')"></div>
                                                 <div class="name">Шегги</div>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                         </div>
-                        {{-- carpet height --}}
                         <div class="tab" data-step="1">
                             <div class="header">
                                 <h4 class="m-0">Выбыерите высоту ворса:</h4>
@@ -422,19 +420,19 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         <div class="item" data-attr="carpet-height" data-value="Коротковорстный">
-                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="image" style="background: url('{{ asset('/assets/images/carpets/short.jpg') }}')"></div>
                                             <div class="name">Коротковорстный</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="item" data-attr="carpet-height" data-value="Средневорстный">
-                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="image" style="background: url('{{ asset('/assets/images/carpets/medium.jpg') }}')"></div>
                                             <div class="name">Средневорстный</div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="item" data-attr="carpet-height" data-value="Высоковорстный">
-                                            <div class="image" style="background: url('http://via.placeholder.com/256x256')"></div>
+                                            <div class="image" style="background: url('{{ asset('/assets/images/carpets/long.jpg') }}')"></div>
                                             <div class="name">Высоковорстный</div>
                                         </div>
                                     </li>
@@ -449,19 +447,19 @@
                             <div class="content">
                                 <div class="check-group">
                                     <div class="check-item">
-                                        <input type="checkbox" data-attr="trace" id="q">
+                                        <input type="checkbox" data-attr="Затоптанность" id="q">
                                         <label for="q">Затоптанность (следы от мебели)</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" data-attr="smells" id="w">
+                                        <input type="checkbox" data-attr="запахи" id="w">
                                         <label for="w">Неприятные запахи</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" data-attr="urine" name="" id="e">
+                                        <input type="checkbox" data-attr="Моча" name="" id="e">
                                         <label for="e">Моча животных</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" data-attr="emergency" name="" id="r">
+                                        <input type="checkbox" data-attr="ЧС" name="" id="r">
                                         <label for="r">После ЧС (потоп, пожар и пр.)</label>
                                     </div>
                                 </div>
@@ -469,7 +467,10 @@
                             </div>
                         </div>
                         <div class="tab" data-step="3">
-                            <div class="header"><h4>Высота ворса2:</h4></div>
+                            <div class="header">
+                                <h4 class="m-0">Данные отправлены, остался последний этап</h4>
+                                <p>Укажите имя и номер телефона, чтобы наш менеджер смог с вами связаться</p>
+                            </div>
                             <div class="content">
                                 <div class="quiz-contact">
                                     <div class="form-group contact-group">
@@ -479,6 +480,12 @@
                                     <div class="form-group contact-group">
                                         <label for="">Введите номер телефона</label>
                                         <input type="text" class="form-control" name="phone" placeholder="+7(XXX)XXX-XX-XX" required>
+                                    </div>
+                                </div>
+                                <div class="thanx  d-none d-flex justify-content-center align-items-center">
+                                    <div class="text-center">
+                                        <h3>Спасибо, что выбрали нас!</h3>
+                                        <p>Совсем скоро наш менеджер свяжется с вами для уточнения деталей</p>
                                     </div>
                                 </div>
                             </div>

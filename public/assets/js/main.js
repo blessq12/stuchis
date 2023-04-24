@@ -87,12 +87,22 @@ submButton.addEventListener("click",function(){
         order['contact']['phone'] = phoneField.value
     }
     if (order['contact']['name'] !== '' && order['contact']['phone'] !== ''){
+
         let xhr = new XMLHttpRequest()
         xhr.open('POST','/action/calc',true)
         xhr.setRequestHeader('X-CSRF-TOKEN',token)
-        xhr.send([JSON.stringify(order)])
+        xhr.send(JSON.stringify(order))
         xhr.onload = function(){
-            console.log(xhr.responseText)
+            if (xhr.status == 200){
+                let tab = document.querySelector("[data-step='"+ currentStep +"']")
+                tab.querySelector('.header').style.opacity = 0
+                submButton.classList.add('d-none')
+                let height = quizContact.offsetHeight
+                quizContact.classList.add('d-none')
+                let thnx = document.querySelector('.thanx')
+                thnx.classList.remove('d-none')
+                thnx.style.height = height
+            }
         }
     } else {
         alert ('не все поля заполнены')
