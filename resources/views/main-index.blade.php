@@ -338,7 +338,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title mb-5">
-                        <h2 class="m-0">Оставьте заявку сейчас, указав всё о потребности</h2>
+                        <h2 class="m-0">Оставьте заявку сейчас, указав всю необходимую информацию</h2>
                         <p>Чтобы узнать стоимость услуги - предлагаем пройти небольшой опрос ниже</p>
                     </div>
                 </div>
@@ -419,21 +419,21 @@
                             <div class="content">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Коротковорстный">
+                                        <div class="item" data-attr="carpet-height" data-value="Коротковорсный">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/short.jpg') }}')"></div>
-                                            <div class="name">Коротковорстный</div>
+                                            <div class="name">Коротковорсный</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Средневорстный">
+                                        <div class="item" data-attr="carpet-height" data-value="Средневорсный">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/medium.jpg') }}')"></div>
-                                            <div class="name">Средневорстный</div>
+                                            <div class="name">Средневорсный</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Высоковорстный">
+                                        <div class="item" data-attr="carpet-height" data-value="Высоковорсный">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/long.jpg') }}')"></div>
-                                            <div class="name">Высоковорстный</div>
+                                            <div class="name">Высоковорсный</div>
                                         </div>
                                     </li>
                                 </ul>
