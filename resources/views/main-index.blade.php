@@ -13,9 +13,7 @@
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <a href="" style="max-height: 600px">
-                                        <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="В поддержку семей и участников СВО">
-                                    </a>
+                                    <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="В поддержку семей и участников СВО">
                                 </div>
                                 <!-- End Post Thumbnail  -->
                                 <!-- Start Post Content  -->
@@ -30,16 +28,14 @@
                                         </div>
                                     </div>
                                     <h2 class="title">
-                                        <a href="">
-                                            Мы запускаем акцию и предоставляем скидку на все наши услуги в период её проведения
-                                        </a>
+                                        Мы предоставляем скидку 10% на стирку ковров и ковровых покрытий
                                     </h2>
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
                                         <div class="read-more-button cerchio">
                                             <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
                                                 <span class="hover-flip-item" >
-                                                    <span data-text="Подробнее">Подробнее</span>
+                                                    <span data-text="Заказать сейчас">Заказать сейчас</span>
                                                 </span>
                                             </a>
                                         </div>
@@ -209,45 +205,6 @@
                     </div>
                 </div>
             </div>
-            <style>
-                .video-block{
-                    padding-top: 50px;
-                }
-                .how-we-do-block{
-                    display: block;
-                    position: relative;
-                    background: #fff;
-                    border-radius: 10px;
-                    margin-bottom: 40px;
-                }
-                .how-we-do-block .video{
-                    margin: 0;
-                    padding: 0;
-                    min-height: 200px;
-                    background: #3858F6;
-                    border-radius: 10px 10px 0 0;
-
-                }
-                .how-we-do-block span{
-                    position: absolute;
-                    left: 30px;
-                    top: -80px;
-                    font-size: 105px;
-                    font-weight: 900;
-                    color: #D93E40;
-                }
-                .how-we-do-block span.ticket{
-                    position: absolute;
-                    right: 20px;
-                    top: 20px;
-                    padding: 5px 10px;
-                    background: #D93E40;
-                    color: #fff;
-                    width: fit-content;
-                    font-size: 12px;
-                    left: auto;
-                }
-            </style>
             <div class="row video-block">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="how-we-do-block">
@@ -304,6 +261,38 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <h4>После прохождения полного цикла стирки</h4>
+                    <p class="m-0">
+                        Ковры отправляются на последнюю, финальную стадию - финишную обработку.
+                        В первую очередь, она нужна для оценки качества выполненных работ, но помимо этого мы проверяем:
+                    </p>
+                    <ul class="list-unstyled mark">
+                        <li>Целостность изделия</li>
+                        <li>Отсутсвие любых посторонних предметов</li>
+                        <li>Отсутсвие следов от моющих средств</li>
+                        <li>Отсутствие неприятных запахов</li>
+                    </ul>
+                    <div class="contact-items mb-3">
+                        <a 
+                            href="http://wa.me/79883440855?text='Задайте свой вопрос напрямую нам!'" 
+                            target="_blank" 
+                            class="axil-button button-rounded hover-flip-item-wrapper wa">
+                            
+                            WhatsApp
+                        </a>
+                        <a 
+                            href="tel:+79883440855" 
+                            class="axil-button button-rounded hover-flip-item-wrapper">
+                            Позвонить
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="finish-image" style="background: url('{{ asset('/assets/images/final.gif') }}')"></div>
+                </div>
+            </div>
         </div>
     </div>
     {{-- end how we do section --}}
@@ -350,7 +339,7 @@
                         <div class="tab" data-step="0">
                                 <div class="header">
                                     <h4 class="m-0">Выберите какой у вас тип ковра:</h4>
-                                    <p>Выберите подходящий тип ковра(коврового покрытия), если затрудняетесь с ответом, можете выбрать вариант "не знаю"</p>
+                                    <p>Выберите подходящий тип ковра(коврового покрытия)</p>
                                 </div>
                                 <div class="content">
                                     <ul class="list-unstyled">
@@ -419,21 +408,21 @@
                             <div class="content">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Коротковорсный">
+                                        <div class="item" data-attr="carpet-height" data-value="Безворсовый">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/short.jpg') }}')"></div>
-                                            <div class="name">Коротковорсный</div>
+                                            <div class="name">Безворсовый(0-0.2 см)</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Средневорсный">
+                                        <div class="item" data-attr="carpet-height" data-value="Средний">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/medium.jpg') }}')"></div>
-                                            <div class="name">Средневорсный</div>
+                                            <div class="name">Срдний(0,5-2 см)</div>
                                         </div>
                                     </li>
                                     <li>
-                                        <div class="item" data-attr="carpet-height" data-value="Высоковорсный">
+                                        <div class="item" data-attr="carpet-height" data-value="Высокий">
                                             <div class="image" style="background: url('{{ asset('/assets/images/carpets/long.jpg') }}')"></div>
-                                            <div class="name">Высоковорсный</div>
+                                            <div class="name">Высокий(2-5 см)</div>
                                         </div>
                                     </li>
                                 </ul>
@@ -441,8 +430,8 @@
                         </div>
                         <div class="tab" data-step="2">
                             <div class="header">
-                                <h4 class="m-0">Укажите дополнительные загрязнения:</h4>
-                                <p>какой то текст</p>
+                                <h4 class="m-0">Укажите дополнительные загрязнения, если такие имеются:</h4>
+                                <p>Это поможет сделать расчет стоимости чистки точнее</p>
                             </div>
                             <div class="content">
                                 <div class="check-group">

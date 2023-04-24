@@ -4,31 +4,22 @@
         <!-- Start Footer Top Area  -->
         <div class="footer-top">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
 
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <div class="logo">
-                            <a href="/" class="d-flex align-items-center">
+                            <a href="/" class="d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start">
                                 <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
-                                <h4 style="margin:0 0 0 10px;">{{ env('APP_NAME') }}</h4>
+                                <h4 style="margin:0 0 0 10px;">Студия чистоты | Анапа</h4>
                             </a>
                         </div>
                     </div>
-
-                    <div class="col-lg-8 col-md-8">
-                        <!-- Start Post List  -->
-                        <div class="d-flex justify-content-start mt_sm--15 justify-content-md-end align-items-center flex-wrap">
-                            <h5 class="follow-title mb--0 mr--20">Follow Us</h5>
-                            <ul class="social-icon color-tertiary md-size justify-content-start">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- End Post List  -->
+                    <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center">
+                        <img src="https://freesvg.org/img/phone-call-icon.png" style="height:45px;margin-right: 10px;" alt="">
+                        <a href="tel:+79883440855">
+                            <h4 class="m-0">+7(988)344-08-55</h4>
+                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -38,49 +29,8 @@
         <div class="copyright-area">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-8 col-md-7">
-                        <div class="copyright-left">
-                            <ul class="mainmenu justify-content-start">
-                                <li>
-                                    <a class="hover-flip-item-wrapper" href="#">
-                                        <span class="hover-flip-item">
-                                    <span data-text="Contact Us">Contact Us</span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="hover-flip-item-wrapper" href="#">
-                                        <span class="hover-flip-item">
-                                    <span data-text="Terms of Use">Terms of Use</span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="hover-flip-item-wrapper" href="#">
-                                        <span class="hover-flip-item">
-                                    <span data-text="AdChoices">AdChoices</span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="hover-flip-item-wrapper" href="#">
-                                        <span class="hover-flip-item">
-                                    <span data-text="Advertise with Us">Advertise with Us</span>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="hover-flip-item-wrapper" href="#">
-                                        <span class="hover-flip-item">
-                                    <span data-text="Blogar Store">Blogar Store</span>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-md-5">
-                        <div class="copyright-right text-start text-md-end mt_sm--20">
+                        <div class="text-center text-md-start mt_sm--20">
                             <p class="b3">Все права защищены © {{ date('Y') }} | Разработано <a href="http://code-me.ru">code-me</a></p>
                         </div>
                     </div>

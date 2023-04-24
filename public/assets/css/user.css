@@ -60,6 +60,48 @@
     background: #D93E40;
     transition: all 0.3s;
 }
+.video-block{
+    padding-top: 50px;
+}
+.how-we-do-block{
+    display: block;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.how-we-do-block .video{
+    margin: 0;
+    padding: 0;
+    min-height: 200px;
+    background: #3858F6;
+    border-radius: 10px 10px 0 0;
+
+}
+.how-we-do-block span{
+    position: absolute;
+    left: 30px;
+    top: -80px;
+    font-size: 105px;
+    font-weight: 900;
+    color: #D93E40;
+}
+.how-we-do-block span.ticket{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px 10px;
+    background: #D93E40;
+    color: #fff;
+    width: fit-content;
+    font-size: 12px;
+    left: auto;
+}
+.wa{
+    background: green!important;
+    border: green!important;
+}
 /* quiz */
 .quiz{
     min-height: 500px;
@@ -125,10 +167,39 @@
 .contact-group{
     max-width: 40%;
 }
+.finish-image{
+    background-size: cover!important;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    border-radius: 10px;
+    min-height: 250px;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mark{
+    background: transparent;
+}
+.mark li{
+    font-weight: 600;
+    margin: 0;
+}
+.mark li:before{
+    display: inline-block;
+    content: '→';
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #D93E40;
+
+}
 @media (max-width: 768px) {
     .block-to-whom .content h3{font-size: 20px; margin-bottom: 10px;}
     .block-to-whom .content p{font-size: 12px;}
-    
+    .mark li{
+        font-weight: 600;
+        margin: 0;
+        font-size: 14px;
+    }
     .cta-button{
         margin-top: 30px;
         width: 100%!important;
