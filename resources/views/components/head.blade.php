@@ -28,8 +28,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/slick-theme.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/base.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/plugins.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=11') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1.11') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=111') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1.112') }}">
 
 </head>
 
