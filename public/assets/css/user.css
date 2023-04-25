@@ -260,6 +260,9 @@
         margin: 0;
         font-size: 14px;
     }
+    .social-with-icon{
+        margin-right: 10px;
+    }
     .contact-item{
         min-height: 110px;
         display: flex;
