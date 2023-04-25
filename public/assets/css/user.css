@@ -263,6 +263,9 @@
     .social-with-icon{
         margin-right: 10px;
     }
+    .contact-item .content a{
+        height: 30px;
+    }
     .contact-item{
         min-height: 110px;
         display: flex;
@@ -274,7 +277,7 @@
         width: 50px;
     }
     .contact-item .content h4{
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
     .contact-item .content a{
         font-size: 14px;

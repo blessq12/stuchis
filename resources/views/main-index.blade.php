@@ -668,7 +668,7 @@
                                                 <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="">
                                                 WhatsApp
                                             </a>
-                                            <a href="http://t.me/79883440855" class="social-with-icon">
+                                            <a href="http://t.me/Tsarevich22" class="social-with-icon">
                                                 <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="">
                                                 Telegram
                                             </a>
