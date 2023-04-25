@@ -33,7 +33,7 @@
                                     <!-- Post Meta  -->
                                     <div class="post-meta-wrapper with-button">
                                         <div class="read-more-button cerchio">
-                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="">
+                                            <a class="axil-button button-rounded hover-flip-item-wrapper" href="tel:{{$phone}}">
                                                 <span class="hover-flip-item" >
                                                     <span data-text="Заказать сейчас">Заказать сейчас</span>
                                                 </span>
@@ -178,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3 text-left text-md-center text-lg-center">
-                    <a href="javacsript:void(0)"
+                    <a href="{{$waLink.'?text="Заказ с сайта"'}}"
                        class="axil-button button-rounded hover-flip-item-wrapper cta-button"
                        onclick="alert('button pressed cta')"
                        >
@@ -278,14 +278,14 @@
                     </ul>
                     <div class="contact-items mb-3">
                         <a 
-                            href="http://wa.me/79883440855?text='Задайте свой вопрос напрямую нам!'" 
+                            href="{{ $waLink ."?text=Задайте свой вопрос напрямую нам!"}}"
                             target="_blank" 
                             class="axil-button button-rounded hover-flip-item-wrapper wa">
                             
                             WhatsApp
                         </a>
                         <a 
-                            href="tel:+79883440855" 
+                            href="tel:{{$phone}}" 
                             class="axil-button button-rounded hover-flip-item-wrapper">
                             Позвонить
                         </a>
@@ -298,31 +298,6 @@
         </div>
     </div>
     {{-- end how we do section --}}
-    {{-- info block area --}}
-    <div class="axil-section-gap bg-color-grey position-relative info-block-gap">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="info-block" style="
-                        border-left:5px solid #3858F6;
-                        border-radius:10px;
-                        min-height:100px;
-                        padding: 10px 20px;
-                        ">
-                        <h2>Интересные факты про пыль в помещениях</h2>
-                        <p>
-                            <b>Воздух в помещении</b>, как правило, содержит примерно вдвое больше пыли, чем воздух снаружи.
-                            А это приблизительно <b>миллион микроскопических частиц</b> в кубическом сантиметре воздуха.
-                            Около <b>2000 пылевых клещей могут счастливо проживать в 30 граммах пыли</b>, скопившейся на вашем ковре.
-                            С человека осыпается <b>около 1,5 миллионов чешуек кожи в час</b>, большинство из них упадет на ваш ковер.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- end info block area --}}
-
     {{-- calculator block --}}
     <div class="axil-section-gap bg-color-white position-relative info-block-gap">
         <div class="container">
@@ -511,7 +486,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/1.jpg') }}" alt="Качество выполнения">
                                     </div>
@@ -526,7 +501,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/2.jpg') }}" alt="Современное оборудование">
                                     </div>
@@ -541,7 +516,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/3.jpg') }}" alt="Бесплатный вывоз/доставка">
                                     </div>
@@ -556,7 +531,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/4.jpg') }}" alt="Глубока чистка изделий">
                                     </div>
@@ -571,7 +546,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/5.jpg') }}" alt="Безопасная сделка">
                                     </div>
@@ -586,7 +561,7 @@
                         <!-- Start Single Category  -->
                         <div class="single-cat">
                             <div class="inner">
-                                <a href="#">
+                                <a href="tel:{{ $phone }}">
                                     <div class="thumbnail">
                                         <img src="{{ asset('/assets/images/thumbs/6.jpg') }}" alt="Безопасная сделка">
                                     </div>
@@ -628,7 +603,7 @@
                                     </div>
                                     <div class="content">
                                         <h4>Адрес:</h4>
-                                        <a href="">пос. Пятихатки, ул.Дачная, 7</a>
+                                        <a href="https://yandex.ru/maps/?ll=37.318871%2C44.981158&mode=routes&rtext=~44.980364%2C37.316976&rtt=auto&ruri=~&z=16.17">{{ $address }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -639,7 +614,7 @@
                                     </div>
                                     <div class="content">
                                         <h4>Телефон:</h4>
-                                        <a href="tel:+7(988)344-08-55">+7(988)344-08-55</a>
+                                        <a href="tel:{{$phone}}">{{$phone}}</a>
                                     </div>
                                 </div>
                             </div>
@@ -652,7 +627,7 @@
                                     </div>
                                     <div class="content">
                                         <h4>Email адрес:</h4>
-                                        <a href="mailto:stuchis@yandex.ru">stuchis@yandex.ru</a>
+                                        <a href="mailto:{{$emailAddress}}">{{$emailAddress}}</a>
                                     </div>
                                 </div>
                             </div>
@@ -664,11 +639,11 @@
                                     <div class="content">
                                         <h4>Мессенджеры:</h4>
                                         <div class="d-flex justify-content-around align-items-center">
-                                            <a href="http://wa.me/79883440855" class="social-with-icon">
+                                            <a href="{{ $waLink }}" class="social-with-icon">
                                                 <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="">
                                                 WhatsApp
                                             </a>
-                                            <a href="http://t.me/Tsarevich22" class="social-with-icon">
+                                            <a href="{{ $tgLink }}" class="social-with-icon">
                                                 <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="">
                                                 Telegram
                                             </a>
