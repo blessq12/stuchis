@@ -5,7 +5,7 @@
             <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                 <a href="/">
                     <span class="logo">
-                        <img src="/assets/images/logo.svg" alt="">
+                        <img src="/assets/images/logo.svg" alt="Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты">
                         <span class="logo-text">
                             <span class="text-uppercase name">Студия чистоты</span><br>
                             стирка ковров в Анапе
@@ -16,7 +16,7 @@
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-none d-md-block d-lg-block d-xl-block">
                 <div class="header-phone">
                     <div class="phone-cta">
-                        <img src="/assets/images/phone-icon.png" alt="" style="margin-right: 5px">
+                        <img src="/assets/images/phone-icon.png" alt="{{$phone}}" style="margin-right: 5px">
                         <a href="tel:{{$phone}}">
                             <p class="m-0 text-center" style="font-size: 10px;margin-bottom:argin-bottom:-3px;">Выезд по Анапе бесплатный</p>
                             {{$phone}}
@@ -48,7 +48,7 @@
         <div class="row d-flex d-md-none d-lg-none d-xl-none">
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="m-logo d-flex align-items-center">
-                    <img src="/assets/images/logo.svg" alt="">
+                    <img src="/assets/images/logo.svg" alt="Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты">
                     <span class="d-block fw-bold">
                         СТУДИЯ ЧИСТОТЫ
                         <span class="d-block" style="font-size: 10px;font-weight:400">стирка ковров в Анапе</span>

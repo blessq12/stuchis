@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Start Banner Area -->
-    <h1 class="d-none">Стирка ковров и ковровых покрытий</h1>
+    <h1 class="d-none">Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты</h1>
     <div class="slider-area bg-color-grey">
         <div class="axil-slide slider-style-1">
             <div class="container">
@@ -13,7 +13,7 @@
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
-                                    <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="В поддержку семей и участников СВО">
+                                    <img src="{{ asset('/assets/images/banner-1.jpg') }}" alt="Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты">
                                 </div>
                                 <!-- End Post Thumbnail  -->
                                 <!-- Start Post Content  -->
@@ -599,7 +599,7 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/address-icon.png') }}" class="rounded" alt="">
+                                        <img src="{{ asset('/assets/images/address-icon.png') }}" class="rounded" alt="{{$address}}">
                                     </div>
                                     <div class="content">
                                         <h4>Адрес:</h4>
@@ -610,7 +610,7 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/phone-icon.png') }}" class="rounded" alt="">
+                                        <img src="{{ asset('/assets/images/phone-icon.png') }}" class="rounded" alt="{{$phone}}">
                                     </div>
                                     <div class="content">
                                         <h4>Телефон:</h4>
@@ -623,7 +623,7 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/email-address-icon.png') }}" class="rounded" alt="">
+                                        <img src="{{ asset('/assets/images/email-address-icon.png') }}" class="rounded" alt="{{$emailAddress}}">
                                     </div>
                                     <div class="content">
                                         <h4>Email адрес:</h4>
@@ -634,17 +634,17 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/social-icon.png') }}" class="rounded" alt="">
+                                        <img src="{{ asset('/assets/images/social-icon.png') }}" class="rounded" alt="Мы в социальных сетях">
                                     </div>
                                     <div class="content">
                                         <h4>Мессенджеры:</h4>
                                         <div class="d-flex justify-content-around align-items-center">
                                             <a href="{{ $waLink }}" class="social-with-icon">
-                                                <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="">
+                                                <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="Написать в WhatsApp">
                                                 WhatsApp
                                             </a>
                                             <a href="{{ $tgLink }}" class="social-with-icon">
-                                                <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="">
+                                                <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="Написать в Telegram">
                                                 Telegram
                                             </a>
                                         </div>
@@ -656,7 +656,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 mt-5 mt-md-0 mt-lg-0">
-                    <div class="map" style="background: url('{{ asset('/assets/maps/map.jpg') }}')"></div>
+                    <div class="map" style="background: url('{{ asset('/assets/maps/map.jpg') }}')">
+                    </div>
                 </div>
             </div>
         </div>
