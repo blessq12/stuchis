@@ -240,8 +240,8 @@
                         <div class="content p-4">
                             <h4 class="mb-3">Отжим в промышленной центрифуге</h4>
                             <p>
-                                Это помогает <b>удалить до 90-95% влаги</b> из ковра или коврового покрытия, а достигается путём <b>вращения барабана до 1200 оборотов в минуту</b>.
-                                При таком влагоудалении <b>не остается</b> вероятности появления <b>запаха затхлости</b>
+                                Во время отжима из изделия <b>удаляется до 95% влаги</b> ,это достигается путём вращения барабана <b>до 1200 оборотов в минуту</b>. 
+                                При таком влагоудалении исключается образование желтых танинных пятен ,а так же в разы <b>ускоряет процесс сушки</b>
                             </p>
                         </div>
                     </div>
@@ -253,9 +253,10 @@
                         <div class="content p-4">
                             <h4 class="mb-3">Сушильная камера</h4>
                             <p>
-                                Сушка происходит в <b>герметичной камере</b>, внутри которой поддерживается <b>определенная влажность и температура</b>.
-                                Ковер высыхает, в среднем, <b>от 12 до 18 часов</b>.
-                                В ней же происходит и озонирование, после полного высыхания
+                                Сушка происходит <b>в полностью герметичной камере, внутри которой поддерживается определенная влажность и температура</b>. 
+                                <b>Ковер высыхает от 4 до 18 часов</b>, в зависимости от материала. 
+                                Исключается начало процесса загнивания(появления неприятного запаха).
+                                После полного высыхания камера <b>заполняется озоном для полного обеззараживания и устранения посторонних запахов</b> в ковровых изделиях.
                             </p>
                         </div>
                     </div>
@@ -608,11 +609,79 @@
     <div class="axil-categories-list axil-section-gap bg-color-grey">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="section-title mb-5">
-                        <h2 class="m-0">Контактная информация</h2>
-                        <p>Все способы для связи с нами в одном месте</p>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="section-title mb-5">
+                                <h2 class="m-0">Контактная информация</h2>
+                                <p>Все способы для связи с нами в одном месте</p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12">
+                        <div class="row mb-0 mb-md-3 mb-lg-3">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img src="{{ asset('/assets/images/address-icon.png') }}" class="rounded" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Адрес:</h4>
+                                        <a href="">пос. Пятихатки, ул.Дачная, 7</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img src="{{ asset('/assets/images/phone-icon.png') }}" class="rounded" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Телефон:</h4>
+                                        <a href="tel:+7(988)344-08-55">+7(988)344-08-55</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img src="{{ asset('/assets/images/email-address-icon.png') }}" class="rounded" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Email адрес:</h4>
+                                        <a href="mailto:stuchis@yandex.ru">stuchis@yandex.ru</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="contact-item">
+                                    <div class="icon">
+                                        <img src="{{ asset('/assets/images/social-icon.png') }}" class="rounded" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h4>Мессенджеры:</h4>
+                                        <div class="d-flex justify-content-around align-items-center">
+                                            <a href="http://wa.me/79883440855" class="social-with-icon">
+                                                <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="">
+                                                WhatsApp
+                                            </a>
+                                            <a href="http://t.me/79883440855" class="social-with-icon">
+                                                <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="">
+                                                Telegram
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 mt-5 mt-md-0 mt-lg-0">
+                    <div class="map" style="background: url('{{ asset('/assets/maps/map.jpg') }}')"></div>
                 </div>
             </div>
         </div>

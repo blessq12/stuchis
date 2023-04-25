@@ -14,8 +14,8 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center">
-                        <img src="https://freesvg.org/img/phone-call-icon.png" style="height:45px;margin-right: 10px;" alt="">
+                    <div class="mt-4 mt-md-0 mt-lg-0 col-12 col-md-6 col-lg-6 d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center">
+                        <img src="https://freesvg.org/img/phone-call-icon.png" class="footer-phone-img" alt="">
                         <a href="tel:+79883440855">
                             <h4 class="m-0">+7(988)344-08-55</h4>
                         </a>
