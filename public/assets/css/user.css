@@ -250,7 +250,104 @@
     background-size: cover!important;
     background-repeat: no-repeat!important;
     border-radius: 10px;
-
+}
+.header .container .row{
+    min-height: 80px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+.logo .logo-text{
+    text-align: left!important;
+    line-height: normal;
+    font-size: 18px;
+}
+.logo .logo-text .name{
+    font-weight: 800;
+    font-size: 20px;
+}
+.header-phone{
+    display: flex;
+    justify-content: center;
+}
+.header-phone .phone-cta{
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid #D93E40;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.phone-cta img{
+    height: 30px;
+    width: 30px;
+}
+.phone-cta a{
+    font-weight: 800;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.cta-icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.cta-icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    margin-left: 10px;
+    border: 1px solid #D93E40;
+    border-radius: 10px;
+    transition:all 0.3s;
+}
+.cta-icons .icon svg{
+    height: 30px;
+    width: 30px;
+}
+.cta-icons .phone svg{
+    fill: #D93E40;
+}
+.cta-icons .phone:hover{
+    background: #D93E40;
+}
+.cta-icons .phone:hover svg{
+    fill: #fff;
+}
+.cta-icons .whatsapp:hover{
+    background: #25D366;
+}
+.cta-icons .whatsapp:hover svg{
+    fill: #fff;
+}
+.cta-icons .tg:hover{
+    background: #34B7F1;
+}
+.cta-icons .tg:hover svg{
+    fill: #fff;
+}
+.cta-icons .whatsapp svg{
+    fill: #25D366;
+}
+.cta-icons .tg svg{
+    fill: #34B7F1;
+}
+.cta-icons .whatsapp{
+    border-color: #25D366;
+}
+.cta-icons .tg{
+    border-color: #34B7F1;
 }
 @media (max-width: 768px) {
     .block-to-whom .content h3{font-size: 20px; margin-bottom: 10px;}
@@ -259,6 +356,41 @@
         font-weight: 600;
         margin: 0;
         font-size: 14px;
+    }
+    .header{
+        padding: 0!important;
+    }
+    .header .container .row{
+        min-height: 60px;
+    }
+    .cta-icons .icon svg {
+        height: 15px;
+        width: 15px;
+    }
+    .cta-icons .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        background: transparent;
+        margin-left: 10px;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    .m-logo img{
+        height: 30px;
+        width: auto;
+        margin-right: 5px;
+    }
+    .m-logo span{
+        font-size: 12px;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .cta-icons{
+        justify-content: center;
+        align-items: center;
     }
     .social-with-icon{
         margin-right: 10px;

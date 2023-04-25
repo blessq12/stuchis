@@ -108,4 +108,17 @@ submButton.addEventListener("click",function(){
     thnx.classList.remove('d-none')
     thnx.style.height = height
 })
-
+//header fixed top and body change on scroll
+let body = document.body
+let header = document.querySelector('.header')
+let headerHeight = header.offsetHeight
+window.addEventListener("scroll", (event) => {
+    let scroll = this.scrollY;
+    if ( scroll > 1 ){
+        body.style.marginTop = headerHeight+'px'
+        header.style.position = 'fixed'
+    } else {
+        header.style.position = 'relative'
+        body.style.marginTop = 0
+    }
+});
