@@ -16,7 +16,7 @@
             <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-none d-md-block d-lg-block d-xl-block">
                 <div class="header-phone">
                     <div class="phone-cta">
-                        <img src="{{ asset('/assets/images/phone-icon.png') }}" alt="" style="margin-right: 5px">
+                        <img src="/assets/images/phone-icon.png" alt="" style="margin-right: 5px">
                         <a href="tel:+7(988)344-08-55">
                             <p class="m-0 text-center" style="font-size: 10px;margin-bottom:argin-bottom:-3px;">Выезд по Анапе бесплатный</p>
                             +7(988)344-08-55
