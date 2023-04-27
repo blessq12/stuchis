@@ -2,6 +2,7 @@
 <html lang="RU-ru">
 
 <head>
+    <meta name="yandex-verification" content="005ab352de62ab3a" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="robots" content="index, follow" />
