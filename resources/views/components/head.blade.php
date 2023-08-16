@@ -6,10 +6,10 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYG376MQK9"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-FYG376MQK9');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FYG376MQK9');
     </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -43,15 +43,11 @@
     ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor/font-awesome.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/vendor/slick-theme.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/vendor/base.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/plugins.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=222') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1.2212') }}">
-
+    @vite('resources/css/app.css')
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};

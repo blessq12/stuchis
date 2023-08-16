@@ -9,7 +9,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="slider-activation axil-slick-arrow">
-                            {{-- Single slider --}}
+                            <!-- single slide -->
                             <div class="content-block">
                                 <!-- Start Post Thumbnail  -->
                                 <div class="post-thumbnail">
@@ -43,7 +43,6 @@
                                 </div>
                                 <!-- End Post Content  -->
                             </div>
-                            {{-- /Single slider --}}
                         </div>
                     </div>
                 </div>
