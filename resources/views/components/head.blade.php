@@ -24,7 +24,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="{{ asset('/assets/favicon/browserconfig.xml')}}">
     <meta name="theme-color" content="#ffffff">
-    <title>Чистка и стирка ковров в Анапе - Студия Чистоты</title>
+    <title>{{ $company->name }}</title>
     <meta name="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
     <meta itemprop="name" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
     <meta itemprop="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">

@@ -10,14 +10,14 @@
                         <div class="logo">
                             <a href="/" class="d-flex align-items-center justify-content-center justify-content-md-start justify-content-lg-start">
                                 <img class="logo" src="/assets/images/logo.svg" alt="{{ env('APP_NAME') }}">
-                                <h4 style="margin:0 0 0 10px;">Студия чистоты | Анапа</h4>
+                                <h4 style="margin:0 0 0 10px;">{{ $company->name }}</h4>
                             </a>
                         </div>
                     </div>
                     <div class="mt-4 mt-md-0 mt-lg-0 col-12 col-md-6 col-lg-6 d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-center">
                         <img src="https://freesvg.org/img/phone-call-icon.png" class="footer-phone-img" alt="">
-                        <a href="tel:+79883440855">
-                            <h4 class="m-0">+7(988)344-08-55</h4>
+                        <a href="tel:{{ $company->name }}">
+                            <h4 class="m-0">{{ $company->phone }}</h4>
                         </a>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Company;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -9,9 +10,7 @@ class MainController extends Controller
     public function index(){
 
         return view('main-index',[
-            'title' => '',
-            'description' => '',
-            'image' => 'http://via.placeholder.com/1920x1080'
+            'company' => Company::first()
         ]);
     }
 }

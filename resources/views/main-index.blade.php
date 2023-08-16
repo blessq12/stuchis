@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Start Banner Area -->
-    <h1 class="d-none">Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты</h1>
+    <h1 class="d-none">{{ $company->name }}</h1>
     <div class="slider-area bg-color-grey">
         <div class="axil-slide slider-style-1">
             <div class="container">
@@ -598,7 +598,7 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/address-icon.png') }}" class="rounded" alt="{{$address}}">
+                                        <img src="{{ asset('/assets/images/address-icon.png') }}" class="rounded" alt="{{ $company->address }}">
                                     </div>
                                     <div class="content">
                                         <h4>Адрес:</h4>
@@ -609,11 +609,11 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/phone-icon.png') }}" class="rounded" alt="{{$phone}}">
+                                        <img src="{{ asset('/assets/images/phone-icon.png') }}" class="rounded" alt="{{ $company->phone }}">
                                     </div>
                                     <div class="content">
                                         <h4>Телефон:</h4>
-                                        <a href="tel:{{$phone}}">{{$phone}}</a>
+                                        <a href="tel:{{ $company->phone }}">{{ $company->phone }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -622,11 +622,11 @@
                             <div class="col-12 col-md-6 col-lg-6">
                                 <div class="contact-item">
                                     <div class="icon">
-                                        <img src="{{ asset('/assets/images/email-address-icon.png') }}" class="rounded" alt="{{$emailAddress}}">
+                                        <img src="{{ asset('/assets/images/email-address-icon.png') }}" class="rounded" alt="{{ $company->email_address }}">
                                     </div>
                                     <div class="content">
                                         <h4>Email адрес:</h4>
-                                        <a href="mailto:{{$emailAddress}}">{{$emailAddress}}</a>
+                                        <a href="mailto:{{ $company->email_address }}">{{ $company->email_address }}</a>
                                     </div>
                                 </div>
                             </div>
@@ -638,11 +638,11 @@
                                     <div class="content">
                                         <h4>Мессенджеры:</h4>
                                         <div class="d-flex justify-content-around align-items-center">
-                                            <a href="{{ $waLink }}" class="social-with-icon">
+                                            <a href="{{ $company->wa_link }}" class="social-with-icon">
                                                 <img src="{{ asset('/assets/images/wa-icon.png') }}" alt="Написать в WhatsApp">
                                                 WhatsApp
                                             </a>
-                                            <a href="{{ $tgLink }}" class="social-with-icon">
+                                            <a href="{{ $company->tg_link }}" class="social-with-icon">
                                                 <img src="{{ asset('/assets/images/telegram-icon.png') }}" alt="Написать в Telegram">
                                                 Telegram
                                             </a>
