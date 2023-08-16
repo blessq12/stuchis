@@ -1,45 +1,3 @@
-/*********************************************************************************
-	Template Name: Blogar Personal Blog Template
-	Template URL: https://axilthemes.com/demo/template/splash/blogar/index.html
-	Description: Blogar Personal Blog HTML5 Template
-	Author: Axilthemes
-	Author URL: https://axilthemes.com/
-	Version: 1.2.0
-
-**********************************************************************************/
-/**************************************************************
-
-	STYLESHEET INDEXING
-	|
-	|
-	|___ Default Styles
-	|	|
-	|	|___ Reset Styles
-	|	|___ Typography
-	|	|___ Animations
-	|	|___ Utilities
-	|
-	|
-	|___Elements Styles
-	|	|___ Button
-	|	|___ Section Title
-	|
-	|
-	|___Blocks Styles
-	|	|___ Header 
-	|	|___ Navigation 
-	|	|___ Banner
-	|	|___ Footer
-	|
-	|
-	|___ END STYLESHEET INDEXING
-
-***************************************************************/
-/**************************************
-    Default Styles
-***************************************/
-/*-- Variables --*/
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500&display=swap");
 :root {
   --color-primary: #3858F6;
   --color-secondary: #D93E40;
@@ -111,10 +69,7 @@
   --h6: 16px;
 }
 
-/**
- * Reset Styels
- */
-* {
+*{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }

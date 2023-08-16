@@ -15,7 +15,7 @@ use Illuminate\Http\Request;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-//Main domain group routes
+
 Route::get('/',[MainController::class,'index']);
 
 Route::post('/action/calc',[ActionController::class,'calc']);
