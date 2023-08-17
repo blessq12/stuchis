@@ -466,6 +466,7 @@
         </div>
     </div>
     {{-- end calculator block --}}
+    <div id="calc"></div>
 
     <!-- Start Categories List  -->
     <div class="axil-categories-list axil-section-gap bg-color-grey">

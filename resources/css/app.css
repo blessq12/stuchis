@@ -1,4 +1,9 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/animate.css/animate.min.css';
+
+:root{
+    --animate-duration: .3s;
+}
 
 .block-to-whom{
     border: 1px solid #CED0D4;

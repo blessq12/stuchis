@@ -43,7 +43,6 @@
     ============================================ -->
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=222') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/user.css?v=1.2212') }}">
     @vite('resources/css/app.css')
     
     <!-- Yandex.Metrika counter -->
