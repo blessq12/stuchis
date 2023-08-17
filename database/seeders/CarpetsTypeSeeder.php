@@ -13,7 +13,7 @@ class CarpetsTypeSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('carpets_types')->insert([
+        DB::table('types')->insert([
             ['name' => 'Безворсовый', 'image' => '/assets/images/carpets/bezvors.jpg'],
             ['name' => 'Ковролин', 'image' => '/assets/images/carpets/kovrolin.jpg'],
             ['name' => 'Синтетика', 'image' => '/assets/images/carpets/sintetika.jpg'],

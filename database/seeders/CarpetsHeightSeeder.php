@@ -18,28 +18,28 @@ class CarpetsHeightSeeder extends Seeder
     ];
     public function run(): void
     {
-        DB::table('carpets_heights')->insert([
+        DB::table('heights')->insert([
             // безворсовый
-            ['carpets_type_id'=>1,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>1,'value'=>$this->heights_values[1]],
             // ковролин
-            ['carpets_type_id'=>2,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>2,'value'=>$this->heights_values[1]],
             // Синтетика
-            ['carpets_type_id'=>3,'height_value'=>$this->heights_values[1]],
-            ['carpets_type_id'=>3,'height_value'=>$this->heights_values[2]],
+            ['type_id'=>3,'value'=>$this->heights_values[1]],
+            ['type_id'=>3,'value'=>$this->heights_values[2]],
             // Вискоза
-            ['carpets_type_id'=>4,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>4,'value'=>$this->heights_values[1]],
             // Акрил
-            ['carpets_type_id'=>5,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>5,'value'=>$this->heights_values[1]],
             // Бамбук
-            ['carpets_type_id'=>6,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>6,'value'=>$this->heights_values[1]],
             // Шелк
-            ['carpets_type_id'=>7,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>7,'value'=>$this->heights_values[1]],
             // Шерсть
-            ['carpets_type_id'=>8,'height_value'=>$this->heights_values[1]],
+            ['type_id'=>8,'value'=>$this->heights_values[1]],
             // Шегги
-            ['carpets_type_id'=>9,'height_value'=>$this->heights_values[1]],
-            ['carpets_type_id'=>9,'height_value'=>$this->heights_values[2]],
-            ['carpets_type_id'=>9,'height_value'=>$this->heights_values[3]],
+            ['type_id'=>9,'value'=>$this->heights_values[1]],
+            ['type_id'=>9,'value'=>$this->heights_values[2]],
+            ['type_id'=>9,'value'=>$this->heights_values[3]],
         ]);
     }
 }
