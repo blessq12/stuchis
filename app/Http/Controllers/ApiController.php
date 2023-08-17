@@ -8,7 +8,12 @@ use Illuminate\Http\Request;
 class ApiController extends Controller
 {
     public function carpets(){
-        $carpet = Type::find(8);
-        return response()->json($carpet);
+        $carpets = Type::all();
+        $response = [];
+        foreach ($carpets as $carpet) {
+            $carpet->getHeights;
+            $response[] = $carpet;
+        }
+        return response()->json($response);
     }
 }

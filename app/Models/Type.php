@@ -9,7 +9,7 @@ class Type extends Model
 {
     use HasFactory;
 
-    public function getHeight(){
+    public function getHeights(){
         return $this->hasMany(Height::class);
     }
 }
