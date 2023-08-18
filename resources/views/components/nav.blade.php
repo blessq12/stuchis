@@ -2,28 +2,27 @@
 <header class="header fixed-top">
     <div class="container">
         <div class="row d-none d-md-flex d-lg-flex d-xl-flex">
-            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-                <a href="/">
-                    <span class="logo">
-                        <img src="/assets/images/logo.svg" alt="Стирка ковров и ковровых покрытий в Анапе - Студия Чистоты">
-                        <span class="logo-text">
-                            <span class="text-uppercase name">{{ $company->name }}</span>
-                        </span>
-                    </span>
-                </a>
+            <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+                <div class="nav-logo">
+                    <img src="{{ $company->logo }}" alt="{{ $company->name }}">
+                    <div class="d-block">
+                        <span>{{ $company->name }}</span>
+                        <p>{{ $company->name_additional }}</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-none d-md-block d-lg-block d-xl-block">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-4 d-none d-md-flex justify-content-center d-lg-block d-xl-block">
                 <div class="header-phone">
                     <div class="phone-cta">
-                        <img src="/assets/images/phone-icon.png" alt="{{ $company->phone }}" style="margin-right: 5px">
+                        <img src="/assets/images/phone-icon.png" alt="{{ $company->phone }}">
                         <a href="tel:{{ $company->phone }}">
-                            <p class="m-0 text-center" style="font-size: 10px;margin-bottom:argin-bottom:-3px;">Выезд по Анапе бесплатный</p>
-                            {{ $company->phone }}
+                            <p>Выезд по Анапе бесплатный</p>
+                            <span>{{ $company->phone }}</span>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-12 col-md-3 col-lg-4 col-xl-4">
                 <div class="cta-icons">
                     <a href="tel:{{ $company->phone }}">
                         <div class="icon phone">
@@ -47,7 +46,11 @@
         <div class="row d-flex d-md-none d-lg-none d-xl-none">
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="m-logo d-flex align-items-center">
-                    <img src="/assets/images/logo.svg" alt="{{ $company->name }}">
+                    <img src="{{ $company->logo }}" alt="{{ $company->name }}">
+                    <div class="d-block">
+                        <span>{{ $company->name }}</span>
+                        <p>{{ $company->name_additional }}</p>
+                    </div>
                 </div>
                 <div class="cta-icons">
                     <a href="tel:{{ $company->phone }}">

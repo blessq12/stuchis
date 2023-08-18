@@ -16,4 +16,8 @@ class ApiController extends Controller
         }
         return response()->json($response);
     }
+    public function send(Request $request){
+        return $request->clientPhone;
+        
+    }
 }

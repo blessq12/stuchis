@@ -21,4 +21,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::controller(ApiController::class)->group(function(){
     Route::get('/carpets','carpets');
+    Route::post('/send','send');
 });

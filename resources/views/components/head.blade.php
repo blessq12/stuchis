@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="RU-ru">
-
 <head>
-    <meta name="yandex-verification" content="005ab352de62ab3a" />
+    <meta name="yandex-verification" content="005ab352de62ab3a"/>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FYG376MQK9"></script>
     <script>
@@ -24,7 +23,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="{{ asset('/assets/favicon/browserconfig.xml')}}">
     <meta name="theme-color" content="#ffffff">
-    <title>{{ $company->name }}</title>
+    <title>{{ Str::upper($company->name) }} - {{ $company->name_additional }}</title>
     <meta name="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
     <meta itemprop="name" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
     <meta itemprop="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
@@ -38,9 +37,6 @@
     <meta name="twitter:title" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
     <meta name="twitter:description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
     <meta name="twitter:image" content="{{ asset('/assets/images/og_image.jpg') }}">
-
-    <!-- CSS
-    ============================================ -->
 
     @vite('resources/css/app.css')    
     <!-- Yandex.Metrika counter -->
@@ -60,8 +56,8 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/93382724" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <meta name="csrf_token" content="{{ csrf_token() }}">
 </head>
 
 <body>
     <div class="main-wrapper">
-       

@@ -37,7 +37,7 @@
         </div>
     </div>
     
-    <div class="section pb-0">
+    <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -120,13 +120,13 @@
     <div class="section cta-section" style="background: url('{{ asset('/assets/images/cta-gap-background.jpg') }}')">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-9 col-md-9 col-12">
+                <div class="col-lg-9 col-md-8 col-12">
                     <div class="section-title">
                         <h2>Не упустите возможность получить скидку <b>10%</b></h2>
                         <p>Мы ценим наших клиентов и поэтому <b>при заказе через сайт</b> впервые вы получаете <b>бесплатную консультацию</b>, выезд для замера, а также <b>мы берем на себя всю логистику</b> от вашей двери и обратно!</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 col-lg-3 text-left text-md-center text-lg-center">
+                <div class="col-12 col-md-4 col-lg-3 text-left text-md-center text-lg-center">
                     <a href="{{ $company->wa_link }}" class="button-primary cta">
                        <span>Получить скидку!</span>
                     </a>
@@ -155,7 +155,7 @@
                         <span class="ticket text-uppercase">Видео замедлено</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/dust_remover.gif') }}')"></div>
                         <div class="content">
-                            <h4 class="mb-3">Выбивание пыли на станке</h4>
+                            <h4>Выбивание пыли на станке</h4>
                             <p>
                                 Это грубое выбивание, <b>таким способом удаляется до 3,5 кг. пыли, песка, мусора и грунта</b>, которые не в силах поднять бытовой пылесос.
                                 Станок <b>не только выбивает, но и вычесывает</b> ворс от волос, шерсти и прочей мелочи(<b>иглы, булавки, рыбные кости и пр</b>).
@@ -168,7 +168,7 @@
                         <span>2.</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/rotor.gif') }}')"></div>
                         <div class="content">
-                            <h4 class="mb-3">Чистка роторной машиной</h4>
+                            <h4>Чистка роторной машиной</h4>
                             <p>
                                 Чтобы максимально <b>эффективно удалить</b> все загрязнения <b>из глубины ковра</b> используется этот метод, а также очищается ворс ковра <b>по всей длине</b>.
                                 Так достигается глубокая очистка - это <b>помогает поднять слежавшийся</b> ворс, например, от "ножек" дивана
@@ -181,7 +181,7 @@
                         <span>3.</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/centrifuge.gif') }}')"></div>
                         <div class="content">
-                            <h4 class="mb-3">Отжим в промышленной центрифуге</h4>
+                            <h4 >Отжим в промышленной центрифуге</h4>
                             <p>
                                 Во время отжима из изделия <b>удаляется до 95% влаги</b> ,это достигается путём вращения барабана <b>до 1200 оборотов в минуту</b>. 
                                 При таком влагоудалении исключается образование желтых танинных пятен ,а так же в разы <b>ускоряет процесс сушки</b>
@@ -194,7 +194,7 @@
                         <span>4.</span>
                         <div class="video" style="background: url('{{ asset('/assets/images/drying.gif') }}')"></div>
                         <div class="content">
-                            <h4 class="mb-3">Сушильная камера</h4>
+                            <h4>Сушильная камера</h4>
                             <p>
                                 Сушка происходит <b>в полностью герметичной камере, внутри которой поддерживается определенная влажность и температура</b>. 
                                 <b>Ковер высыхает от 4 до 18 часов</b>, в зависимости от материала. 

@@ -1,6 +1,9 @@
 <script>
+import { mask } from 'vue-the-mask';
 export default{
+    directives:{mask},
     mounted(){
+        this.csrfToken = document.querySelector("meta[name='csrf_token']").content
         axios.get('/api/carpets').then((response)=>{
             this.carpetsTypes = response.data
         }).catch((err)=>{console.debug(err)})
@@ -31,16 +34,39 @@ export default{
             type: '',
             height: '',
             additional: [],
-            clientData: []
-        }
+            delivery: false,
+            deliveryAddress: ''
+        },
+        clientName: null,
+        clientPhone: null,
+        errors: { phone: false, name: false },
+        buttonActive: false,
+        csrfToken: null,
+        answer: null
     }),
     methods:{
         itemClick(carpet){
             this.currentType = carpet
             this.step++
         },sendData(){
-            this.step++
-            console.log(this.userData)
+            let data = {}
+            data.clientName = this.clientName
+            data.clientPhone = this.clientPhone
+            data.carpetType = this.userData.type
+            data.carpetHeight = this.userData.height
+            data.additional = this.userData.additional
+            data.delivery = this.userData.delivery
+            data.deliveryAddress = this.userData.deliveryAddress
+            console.log(data)
+            axios.post('/api/send',data,{headers:{'X-CSRF-TOKEN':this.csrfToken}}).then((response)=>{
+                if (response.status === 200){
+                    this.step++
+                    this.answer = 'success'
+                } 
+            }).catch((error)=>{
+                this.step++
+                this.answer = 'error'
+            })
         }
     },
     watch:{
@@ -56,8 +82,26 @@ export default{
             } else if (val == 5){
                 this.progress = 100
             }
-        },userData:{
-            handler(val,oldval){console.log(this.userData)},
+        },clientPhone(val){
+            if (val.length < 18){
+                this.errors.phone = true
+                this.buttonActive = false
+            } else {
+                this.errors.phone = false;
+            }
+        },clientName(val){
+            if (val.length < 3){
+                this.errors.name = true
+                this.buttonActive = false
+            } else {
+                this.errors.name = false
+            }
+        },errors:{
+            handler(val){
+                if (this.clientName !== null && this.clientPhone !== null){
+                    this.buttonActive = !this.buttonActive
+                }
+            },
             deep:true
         }
     }
@@ -93,7 +137,7 @@ export default{
                         </div>
                     </li>
                 </ul>
-                <button class="prev-button w-auto axil-button button-rounded hover-flip-item-wrapper" @click="step--" v-if="step > 1 && step < 4">Back</button>
+                <button class="button previous" @click="step--" v-if="step > 1 && step < 4">Назад</button>
             </div> 
             <div class="step" v-else-if="step == 3">
                 <ul class="additional">
@@ -104,24 +148,63 @@ export default{
                         </div>
                     </li>
                 </ul>
-                <button class="prev-button w-auto axil-button button-rounded hover-flip-item-wrapper" @click="step++" v-if="step > 1 && step < 4">Next Screen</button>
+                <button class="button next" @click="step++" v-if="step > 1 && step < 4">Продолжить</button>
             </div>
             <div class="step" v-else-if="step == 4">
-                <div class="client-data" style="max-width: 50%;">
-                    <div class="form-group">
+                <div class="client-data">
+                    <h6>Контактные данные</h6>
+                    <p>Укажите актуальную контактную информацию, чтобы мы могли с вами связаться. Если нужна доставка, выберите ее ниже.</p>
+                    <div class="form-group position-relative">
+                        <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
+                            <div class="alert" role="alert" v-if="errors.name">
+                                Не менее 3-х символов
+                            </div>
+                        </transition>
                         <label for="name">Введите имя</label>
-                        <input type="text" name="name" placeholder="Например, Иван" v-model="userData.clientData.name" class="form-control">
+                        <input type="text" name="name" placeholder="Например, Иван" v-model="clientName" class="form-control">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group position-relative">
+                        <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
+                            <div class="alert" role="alert" v-if="errors.phone">
+                                Не менее 11-ти символов
+                            </div>
+                        </transition>
                         <label for="phone">Номер телефона</label>
-                        <input type="text" name="phone" placeholder="+7(XXX)XXX-XX-XX" v-model="userData.clientData.phone" class="form-control" >
+                        <input type="text" name="phone" v-mask="'+7 (###) ###-##-##'" placeholder="+7 (XXX) XXX-XX-XX" v-model="clientPhone" class="form-control" >
                     </div>
-                    <button @click="sendData">Send data</button>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="delivery" v-model="userData.delivery">
+                        <label class="form-check-label" for="delivery">
+                            Доставка
+                        </label>
+                    </div>
+                    <transition enter-active-class="animate__animated animate__fadeIn" leave-active-class="animate__animated animate__fadeOut">
+                        <div class="form-group" v-if="userData.delivery">
+                            <label for="address">Укажите адрес</label>
+                            <input type="text" id="address" class="form-control" name="address" v-model="userData.deliveryAddress">
+                        </div>
+                    </transition>
+                    <button @click="sendData" class="button send-data" :disabled="!buttonActive">Отправить заявку</button>
                 </div>
             </div>
             <div class="step" v-else-if="step == 5">
-                <h5>data succesufully sended</h5>
-                <button @click="step=1">reset</button>
+                <div v-if="answer == 'success'" class="answer">
+                    <div class="answer-body">
+                        <h3>Спасибо, что выбрали нас</h3>
+                        <p>Наш менеджер свяжется с вами в ближайшее время</p>
+                        <img src="/assets/images/answer-success.png" alt="">
+                    </div>
+                </div>
+                <div v-else class="answer">
+                    <div class="answer-body">
+                        <h3>Что-то пошло не так</h3>
+                        <p>Во время отправки произошла ошибка, попробуйте снова, либо позвоните нам по телефону
+                            <a href="tel:+7(988)344-08-55">+7(988)344-08-55</a>
+                        </p>
+                        <img src="/assets/images/answer-error.png" alt="">
+                        <button class="button to-start" @click="step = 1">В начало</button>
+                    </div>
+                </div>
             </div>
         </transition>      
 </div>
@@ -129,6 +212,16 @@ export default{
 </template>
 
 <style scoped>
+.alert{
+    position: absolute;
+    display: block;
+    font-size: 10px;
+    top: 5px;
+    color: red;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
 .calc-wrapper{
     width: 100%;
     border: 1px solid var(--color-secondary);
@@ -217,4 +310,111 @@ export default{
     padding: 0;
     margin: 0;
 }
+.button{
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin: 24px 0;
+    border: 1px solid var(--color-primary);
+    display: block;
+    min-width: 50%;
+}
+.button:disabled,button[disabled]{
+    background: var(--color-lighter);
+    color: #dedede;
+    border-color: var(--color-lighter);
+}
+.button.previous{
+    display: block;
+    width: 50%;
+}
+.client-data{}
+.client-data h6{
+    font-size: var(--font-size-b2);
+}
+.client-data p{
+    font-size: var(--font-size-b4);
+    margin-bottom: 12px;
+}
+.client-data .form-group{
+    margin-bottom: 12px;
+}
+.client-data .form-check{
+    margin-bottom: 12px;
+}
+.answer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.answer .answer-body{
+    padding: 15px;
+    text-align: center;
+}
+.answer .answer-body h3{
+    font-size: var(--font-size-b1);
+    font-weight: var(--p-semi-bold);
+}
+.answer .answer-body p{
+    font-size: var(--font-size-b4);
+    margin-bottom: 0;
+}
+.answer .answer-body a{
+    font-size: var(--font-size-b4);
+    color: var(--color-secondary);
+}
+.answer .answer-body img{
+    max-width: 120px;
+    margin: 24px;
+}
+.answer .answer-body .button.to-start{
+    margin: 0 auto;
+    background: var(--color-secondary);
+    border-color: var(--color-secondary);
+    padding: 5px 5px;
+    min-width: 35%;
+}
+@media (min-width: 768px){
+    /* carpets types list */
+    .carpets-types{}
+    .carpets-types li{
+        width: 33.333%;
+    }
+    .carpets-types li .carpet-item{}
+    /* end carpets types list */
+
+    /* carpet-height-list */
+    .carpet-height-list{}
+    .carpet-height-list li{
+        width: 33.333%;
+    }
+    .carpet-height-list li .carpet-height{}
+    /* end carpet-height-list */
+
+    /* additional */
+    .additional{}
+    .additional li{}
+    .additional li .form-check{}
+    .additional li .form-check .form-check-input{}
+    .additional li .form-check label{}
+    /* end additional */
+}
+@media (min-width: 920px){
+    /* carpets types list */
+    .carpets-types{}
+    .carpets-types li{
+        width: 20%;
+    }
+    .carpets-types li .carpet-item{}
+    /* end carpets types list */
+
+    /* carpet heights list */
+    .carpet-height-list{}
+    .carpet-height-list li{
+        width: 20%;
+    }
+    /* end carpet heights list */
+}
+@media (min-width: 1200px){}
 </style>
