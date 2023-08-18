@@ -21,7 +21,7 @@ class CompanySeeder extends Seeder
             'phone' => '+7(988)344-08-55',
             'wa_link' => 'https://api.whatsapp.com/send/?phone=79883440855',
             'tg_link' => 'http://t.me/Tsarevich22',
-            'logo' => '/assets/images/logo.svg'
+            'logo' => '/assets/images/logo_main.svg'
         ]);
     }
 }
