@@ -1,5 +1,5 @@
 <!-- Start Header -->
-<header class="header axil-header  header-light fixed-top">
+<header class="header fixed-top">
     <div class="container">
         <div class="row d-none d-md-flex d-lg-flex d-xl-flex">
             <div class="col-12 col-md-4 col-lg-4 col-xl-4">
@@ -48,9 +48,6 @@
             <div class="col-12 d-flex justify-content-between align-items-center">
                 <div class="m-logo d-flex align-items-center">
                     <img src="/assets/images/logo.svg" alt="{{ $company->name }}">
-                    <span class="d-block fw-bold">
-                        {{ $company->name }}
-                    </span>
                 </div>
                 <div class="cta-icons">
                     <a href="tel:{{ $company->phone }}">

@@ -15,6 +15,7 @@ return new class extends Migration
         Schema::create('heights', function (Blueprint $table) {
             $table->id();
             $table->string('value');
+            $table->integer('image');
             $table->foreignIdFor(Type::class);
             $table->timestamps();
         });

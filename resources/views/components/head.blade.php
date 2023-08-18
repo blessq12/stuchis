@@ -42,9 +42,7 @@
     <!-- CSS
     ============================================ -->
 
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css?v=222') }}">
-    @vite('resources/css/app.css')
-    
+    @vite('resources/css/app.css')    
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
