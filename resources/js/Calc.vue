@@ -23,10 +23,11 @@ export default{
             3:{ image: '/assets/images/carpets/long.jpg'}
         },
         additional:[
-            {id:1, value:'Затоптанность(следы от мебели)'},
+            {id:1, value:'Затоптанность'},
             {id:2, value:'Неприятные запахи'},
             {id:3, value:'Моча животных'},
-            {id:4, value:'После ЧС(потоп, пожар и пр.)'}
+            {id:4, value:'После ЧС(потоп, пожар и пр.)'},
+            {id:5, value:'Пластилин'}
         ],
         progress: 0,
         currentType: null,

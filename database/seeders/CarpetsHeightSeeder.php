@@ -12,9 +12,10 @@ class CarpetsHeightSeeder extends Seeder
      * Run the database seeds.
      */
     protected $heights_values = [
-        1 => 'Безворсовый(0-0.2 см)',
-        2 => 'Средний(0,5-2 см)',
-        3 => 'Высокий(2-5 см)'
+        0 => 'Безворс.(менее 2 мм)',
+        1 => 'Низкий(2-5 мм)',
+        2 => 'Средний(5-20 мм)',
+        3 => 'Высокий(20-50 мм)'
     ];
     public function run(): void
     {
