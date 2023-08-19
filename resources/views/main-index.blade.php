@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 text-left text-md-center text-lg-center">
-                    <a href="{{ $company->wa_link }}" class="button-primary cta">
+                    <a href="{{ $company->wa_link .'&text=Промокод:SITE-FSK' }}" class="button-primary cta">
                        <span>Получить скидку!</span>
                     </a>
                 </div>
