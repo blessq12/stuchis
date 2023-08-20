@@ -16,11 +16,7 @@ use Illuminate\Http\Request;
 |
 */
 Route::domain('fskanapa.ru')->group(function(){
-    Route::get('/',function(){
-        return 'index fskanapa.ru';
-    });
+    return response()->redirectTo('stuchis.ru', 301);
 });
 Route::get('/',[MainController::class,'index']);
-
-Route::post('/action/calc',[ActionController::class,'calc']);
 
