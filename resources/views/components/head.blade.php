@@ -25,18 +25,15 @@
     <meta name="theme-color" content="#ffffff">
     <title>{{ Str::title($company->name) }} - {{ $company->name_additional }}</title>
     <meta name="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
-    <meta itemprop="name" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
+    <meta itemprop="name" content="Чистка и стирка ковров в Анапе - {{ Str::title($company->name) }}">
     <meta itemprop="description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
-    <meta itemprop="image" content="{{ asset('/assets/images/og_image.jpg') }}">
     <meta property="og:url" content="http://stuchis.ru">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
+    <meta property="og:title" content="Чистка и стирка ковров в Анапе - {{ Str::title($company->name) }}">
     <meta property="og:description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
-    <meta property="og:image" content="{{ asset('/assets/images/og_image.jpg') }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Чистка и стирка ковров в Анапе - Студия Чистоты">
+    <meta name="twitter:title" content="Чистка и стирка ковров в Анапе - {{ Str::title($company->name) }}">
     <meta name="twitter:description" content="Стирка ковров на профессиональном оборудовании в Анапе {{ date('Y') }} | Заберем, почистим, привезем">
-    <meta name="twitter:image" content="{{ asset('/assets/images/og_image.jpg') }}">
 
     @vite('resources/css/app.css')    
     <!-- Yandex.Metrika counter -->
