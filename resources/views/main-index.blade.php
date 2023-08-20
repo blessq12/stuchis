@@ -348,6 +348,19 @@
                                     </div>
                                 </div>
                             </li>
+                            <li>
+                                <div class="contact-item">
+                                    <a href="{{ $yandex_review }}" aria-label="Оставить отзыв на Яндекс" target="_blank">
+                                        <div class="yandex-review">
+                                            <div class="image" style="background: url('/assets/images/ya_logo.png')"></div>
+                                            <div class="content">
+                                                <h5>Оставить отзыв на Яндекс.Картах</h5>
+                                                <p>Нам важно мнение каждого клиента, чтобы сделать нашу работу и сервис ещё лучше!</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-6">

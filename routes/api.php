@@ -19,7 +19,6 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
 Route::controller(ApiController::class)->group(function(){
     Route::get('/carpets','carpets');
     Route::post('/send','send');
