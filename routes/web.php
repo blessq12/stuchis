@@ -15,7 +15,11 @@ use Illuminate\Http\Request;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::domain('fskanapa.ru')->group(function(){
+    Route::get('/',function(){
+        return 'index fskanapa.ru';
+    });
+});
 Route::get('/',[MainController::class,'index']);
 
 Route::post('/action/calc',[ActionController::class,'calc']);

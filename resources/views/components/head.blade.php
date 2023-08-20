@@ -20,7 +20,7 @@
     <link rel="manifest" href="{{ asset('/assets/favicon/site.webmanifest')}}">
     <link rel="mask-icon" href="{{ asset('/assets/favicon/safari-pinned-tab.svg')}}" color="#5bbad5">
     <link rel="shortcut icon" href="{{ asset('/assets/favicon/favicon.ico')}}">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-config" content="{{ asset('/assets/favicon/browserconfig.xml')}}">
     <meta name="theme-color" content="#ffffff">
     <title>{{ Str::title($company->name) }} - {{ $company->name_additional }}</title>
