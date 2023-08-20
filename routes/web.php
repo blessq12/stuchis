@@ -18,8 +18,8 @@ use Illuminate\Http\Request;
 
 // Redirect to domain
 Route::domain('stuchis.ru')->group(function(){
-    Route::get('{any}',function(){
-        return redirect('http://fskanapa.ru/$any', 301);
+    Route::get('{any}',function($any){
+        return redirect('http://fskanapa.ru/'. $any , 301);
     })->where('any', '.*');
 });
 
