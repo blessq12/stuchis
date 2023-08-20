@@ -22,7 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::domain('stuchis.ru')->group(function(){
     Route::get('{any}',function($any){
-        return redirect('http://fskanapa.ru/'. $any , 301);
+        return redirect('http://fskanapa.ru/api/'.$any , 301);
     })->where('any', '.*');
 });
 
