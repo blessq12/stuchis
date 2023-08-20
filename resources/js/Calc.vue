@@ -18,6 +18,7 @@ export default{
             4: {title:'Остался последний шаг',subtitle:'Укажите имя и номер телефона, чтобы наш менеджер смог с вами связаться'}
         },
         heightImages: {
+            0:{ image: '/assets/images/carpets/bezvors_height.jpg'},
             1:{ image: '/assets/images/carpets/short.jpg'},
             2:{ image: '/assets/images/carpets/medium.jpg'},
             3:{ image: '/assets/images/carpets/long.jpg'}

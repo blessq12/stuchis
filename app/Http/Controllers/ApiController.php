@@ -11,7 +11,7 @@ class ApiController extends Controller
     protected $telegram = null;
     public function __construct(){
         $api_token = '5927082192:AAHz4886SDaXLsAtRsnzNpoG6tfMpbNiMt8';
-        $chat_id = '664866307';
+        $chat_id = '1055615093';
         $this->telegram = new Telegram($api_token, $chat_id);
     }
     public function carpets(){
