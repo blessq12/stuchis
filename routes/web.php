@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
 */
 Route::domain('fskanapa.ru')->group(function(){
     Route::get('{any}',function(){
-        return redirect('http://stuchis.ru/{any}', 301);
+        return redirect('http://stuchis.ru/', 301);
     })->where('any', '.*');
 });
 Route::get('/',[MainController::class,'index']);
